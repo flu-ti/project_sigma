@@ -2,6 +2,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const isProduction = process.env.NODE_ENV === "production";
 
 module.exports = {
   devtool: 'source-map',
@@ -17,16 +18,18 @@ module.exports = {
   output: {
     filename: 'js/[name].js', // The output bundled file
     path: path.resolve(__dirname, 'dist'), // Output folder (dist)
-    publicPath: '/'
+    publicPath: isProduction ? "/project_sigma/" : "/",
   },
-  mode: 'development', // Set mode to development
+
   devServer: {
     static: path.resolve(__dirname, 'dist'), // Folder where the HTML file is served from
     compress: true,
     port: 9000, // Port for the dev server
-    open: "pages/index.html", // Open the browser automatically
-
+    open: true, // Open the browser automatically
   },
+
+  mode: isProduction ? "production" : "development",
+
   module: {
     rules: [
       {
@@ -62,8 +65,8 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
-      template: './src/pages/index.html', // Use the HTML template from src
-      filename: 'pages/index.html', // Output the final HTML to the dist folder
+      template: './src/index.html', // Use the HTML template from src
+      filename: 'index.html', // Output the final HTML to the dist folder
       chunks: ['home']
     }),
 

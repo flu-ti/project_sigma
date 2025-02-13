@@ -2,15 +2,14 @@
   "name": "project_sigma",
   "version": "1.0.0",
   "repository": {
-    "url": "git+https://github.com/{USERNAME}/{REPONAME}.git"
+    "url": "git+https://github.com/{flu-ti}/{project_sigma}.git"
   },
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --mode development",
+    "start": "webpack serve --open",
     "build": "webpack --mode production",
-    "predeploy": "npm run start",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
