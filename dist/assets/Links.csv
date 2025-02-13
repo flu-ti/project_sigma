@@ -1,0 +1,47 @@
+Source;Target;Value;SourceLink;TargetLink
+Pathologie: Extrazelluläre Matrix;Leberzirrhose;2;HTML Extrazelluläre Matrix;HTMLLeberzirrhose
+Pathologie: Extrazelluläre Matrix;Alport Syndrom;2;HTML Extrazelluläre Matrix;0
+Pathologie: Extrazelluläre Matrix;Ehlers-Danlos Syndrom;2;HTML Extrazelluläre Matrix;0
+Pathologie: Extrazelluläre Matrix;Osteogenesis Imperfecta;2;HTML Extrazelluläre Matrix;HTMLOsteogenesisImperfecta
+Pathologie: Extrazelluläre Matrix;Alpha1-Antitrypsin Mangel;2;HTML Extrazelluläre Matrix;0
+Pathologie: Extrazelluläre Matrix;Rachitis;2;HTML Extrazelluläre Matrix;0
+Pathologie: Extrazelluläre Matrix;Skorbut;2;HTML Extrazelluläre Matrix;0
+Pathologie: Extrazelluläre Matrix;Diabetes Mellitus;2;HTML Extrazelluläre Matrix;0
+Pathologie: Extrazelluläre Matrix;Kupfermangel;2;HTML Extrazelluläre Matrix;HTMLKupfermangel
+Pathologie: Extrazelluläre Matrix;Vitamin B6 Mangel;2;HTML Extrazelluläre Matrix;0
+Pathologie: Extrazelluläre Matrix;Arthrose;2;HTML Extrazelluläre Matrix;0
+Pathologie: Extrazelluläre Matrix;Kollagenose;2;HTML Extrazelluläre Matrix;HTMLKollagenose
+Pathologie: Extrazelluläre Matrix;Marfan Syndrom;2;HTML Extrazelluläre Matrix;HTMLMarfan
+Pathologie: Extrazelluläre Matrix;Cutis Laxa Syndrom;2;HTML Extrazelluläre Matrix;0
+Pathologie: Extrazelluläre Matrix;Williams-Beuren Syndrom;2;HTML Extrazelluläre Matrix;0
+Pathologie: Hypoxie und Ischämie;Angina Pectoris;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Claudicatio Intermittens;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Angina Abdominalis;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Fettkalkinfarkte;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Bilirubin-Harnsäure-Infarkte;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Hypoxie;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Hypoxämie;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Hypoxidose;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Infarkt;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Ischämie;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Hyperämie;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Nekrose;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Koagulationsnekrose;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Kolliquationsnekrose;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Thrombose;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Embolie;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Ischämische Kolitis;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Anämischer Infarkt;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Myokardinfarkt;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Niereninfarkt;2;HTML Hypoxie und Ischämie;HTMLNiereninfarkt
+Pathologie: Hypoxie und Ischämie;Plazentainfarkt;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Hirninfarkt;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Hämorrhagischer Infarkt;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Tiefe Venenthrombose;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Linksherzinsuffizienz;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Hodentorsion;2;HTML Hypoxie und Ischämie;0
+Pathologie: Hypoxie und Ischämie;Leberinfarkt;2;HTML Hypoxie und Ischämie;0
+Pathologie: Kreislaufpathologie 1;Pathologie: Kreislaufpathologie 2;1;0;0
+Pathologie: Kreislaufpathologie 1;Pathologie: Kreislaufpathologie 3;1;0;0
+Pathologie: Kreislaufpathologie 2;;;0;#NV
+Hirninfarkt;Pathologie: Kreislaufpathologie 2;2;0;0

@@ -1,0 +1,528 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*||*********BODY AND GENERAL STYLES**********||*/
+
+body {
+	font-family: Helvetica;
+	line-height: 1.6;
+	background-color: var(--darkblue);
+text-align: start;
+}
+
+html * {
+  font-family: Helvetica, sans-serif;
+}
+
+:root {
+--purple: #734B5E;
+--white: #ffffff;
+--darkblue: #13192A;
+--grey: #474848;
+--grey_hover: #CBCDCD;
+--lightblue: #8E9FCC;
+}
+
+
+
+
+
+
+/*||*********HEADER STYLES**********||*/
+
+.header {
+    flex-direction: column; /* Stack title and nav vertically */
+    height: 100px; /* Set height of the header (can adjust as needed) */
+    background-color: var(--purple); /* Background color of header */
+    position: relative; /* Position for absolute nav */
+	top:0;
+	width: 100%;
+	height:200px;
+}
+
+.page-titel {	
+	display: flex;
+	height:75%;
+	padding-left:30px;
+	color:white;
+    position:relative;
+    justify-content:left;
+    align-items:end;
+    justify-items: start;
+	font-size: 36px;
+}
+
+#title-img {
+	-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+	mask-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0));
+	position:absolute;
+	right:0;
+	top:0;
+	height:100%;
+	z-index: 1;
+  }
+
+.navbar {
+	height: 25% ;
+	position: absolute;
+	width: 100%;
+	left:0;
+	bottom:0;
+	z-index: 0;
+}
+
+.navbar ul{
+	list-style-type:none;
+	display: flex;
+	flex-direction: row;
+	background-color:var(--grey);
+	padding: 0px;
+	overflow: hidden;
+	height:100%;
+}
+
+.navbar a{
+	color: black;
+	text-decoration: none;
+	background-color: var(--grey_hover);
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	height: 100%;
+	width:100%;
+	padding: 20px;
+}
+
+.navbar a:hover{
+	background-color: var(--grey);
+	color: var(--white);
+}
+
+.navbar li {
+	float: left;
+	height: 100%;
+	width: auto;
+	border-right: solid thin var(--grey)
+}
+
+
+
+
+
+
+
+/*||*********MAIN CONTENT STYLINGS**********||*/
+
+.container{
+	z-index: 1;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 0.2fr; 
+  gap: 30px 30px; 
+  grid-template-areas: 
+    "disease_script SSP"
+    "lecture lecture";
+	overflow-x:auto;
+	overflow-y: hidden;
+	height:100%;
+}
+
+#lecture { grid-area: lecture; }
+#disease_script { grid-area: disease_script }
+#SSP { grid-area: SSP; }
+
+.title-block {
+	background-color: var(--purple); /* Change the background color to what you like */
+    	color: white;
+    	padding: 0px;
+	display:flex;
+    	align-items: center;
+    	justify-content: center;
+   	text-align: center;
+	height:30%;	
+}
+
+.title_2 {
+    line-height:100%;
+    font-weight: bold;
+	padding: 10px;
+	font-size: 25px;
+}
+
+#title-gross {
+	font-size: 40px;
+}
+
+.item {
+	height: 400px;
+	width: 100%;
+	 padding: 0px; 
+   color: white;
+   transition: border 0.2s ease;
+}
+
+#lecture {
+	height: 250px;
+}
+
+.bottom-block {
+    background-color: #FFFFFF;
+	height:70%;
+}
+
+.bottom-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image is cropped to fit the container without distortion */
+    object-position: center; /* You can adjust this to show the part of the image you want, e.g. top, bottom, etc. */
+    transition: filter 0.6s ease; /* Smooth transition for hover effect */
+	filter: opacity(1);
+}
+
+.item:hover .bottom-block img{
+    filter: opacity(0.6); /* Restore the normal brightness */
+}
+
+.container-diseases {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr); /* 5 items per row */
+	gap: 20px; /* space between the cards */
+	padding:0;
+}
+
+.container-textbook {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr); /* 5 items per row */
+	gap:20px;
+	padding-top:40px;
+}
+
+.textbook-thumbnail {
+	cursor: pointer;
+	transition: 0.3s;
+	width: 100%;
+    height: 100%;
+}
+
+.disease {
+	background-color: #f9f9f9;
+	text-align: center;
+	color: white;
+	transition: border 0.2s ease;
+  }
+
+.disease:hover .bottom-block img{
+    filter: opacity(0.6); /* Restore the normal brightness */
+}
+
+.category {
+	justify-self: start;
+	height: 100px;
+ 	width: 50%;
+  	padding: 0px; 
+	color: white;
+	align-self:center;
+
+	/* Flexbox properties to center text */
+	display: flex;
+    justify-content: flex-start; /* Horizontally center */
+    align-items: center; /* Vertically center */
+	padding-left:30px;
+	font-size:50px;
+	font-weight: bold;
+}
+
+.category-container {
+	padding-bottom:30px;
+	margin:30px;
+	margin-top: 0px;
+}
+
+#allgemeine-pathologie {
+	color: #864ab4;
+}
+
+#respirationstrakt {
+	color: pink;
+}
+
+#gefässe {
+	color: red;
+}
+
+#herz {
+	color: orange;
+}
+
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+	margin: auto;
+	display: block;
+	width: 80%;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+  }
+
+  /* Add Animation */
+.modal-content, #caption {  
+	animation-name: zoom;
+	animation-duration: 0.6s;
+  }
+
+ .modal-img {
+	cursor: pointer;
+	transition: 0.3s;
+	width: 50%;
+    height: 200px;
+    object-fit: cover; /* Ensures the image is cropped to fit the container without distortion */
+    object-position: center; /* You can adjust this to show the part of the image you want, e.g. top, bottom, etc. */
+  }
+
+  @keyframes zoom {
+	from {transform: scale(0.1)} 
+	to {transform: scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+  }
+
+
+
+/* SSP-Page */
+.SSP-container {
+	display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+    width: auto;
+    overflow: auto;
+    flex-direction: row;
+	margin:30px;
+	gap:30px;
+}
+
+.SSP-list{
+	width: 40%;
+	max-width: 800px;
+    height: auto;
+    padding-left:30px;
+	padding-top:30px;
+    background-color: var(--grey_hover);
+}
+
+.SSP-list ol {
+	list-style-type: none; /* Remove default numbering */
+	padding-left: 20px; /* Indent the first level */
+	counter-reset: item; /* Reset counter for each new list */
+  }
+
+  .SSP-list #nullentry {
+	padding-left:20px;
+	font-weight:bold;
+  }
+  
+  .SSP-list ol > li {
+	counter-increment: item; /* Increment counter for each list item */
+  }
+  
+  .SSP-list ol > li::before {
+	content: counter(item) ". "; /* Display the first level number (e.g., 1., 2., etc.) */
+  }
+  
+  .SSP-list ol ol {
+	list-style-type: none; /* Remove default numbering for sub-lists */
+	padding-left: 25px; /* Indent sub-lists */
+	counter-reset: subitem; /* Reset counter for sub-lists */
+	padding-bottom:10px;
+  }
+  
+  .SSP-list ol ol > li {
+	counter-increment: subitem; /* Increment sub-counter for nested list items */
+  }
+  
+  .SSP-list ol ol > li::before {
+	content: counter(item) "." counter(subitem) ". "; /* Display the nested numbering (e.g., 1.1, 1.2, etc.) */
+  }
+
+  .SSP-list li {
+	padding:3px;
+  }
+
+  .link:hover {
+	color:var(--lightblue)
+  }
+
+  .SSP-list #first{
+	font-weight:bold;
+  }
+
+.SSP-start-text {
+	width:60%;
+	height: auto;
+	color:white;
+	display:block;
+}
+
+.SSP-list-specific {
+	width:60%;
+	height: auto;
+	color:white;
+	display:none;
+}
+
+.SSP-start-text ul{
+	padding-left: 50px;
+	padding-bottom:30px;
+}
+
+.SSP-start-text p{
+	margin-bottom:30px;
+}
+
+.SSP-start-text h1{
+	color: var(--titlesalmon);
+}
+
+
+.SSP-list-specific {
+	color:white;
+}
+
+.SSP-list-specific ul {
+	padding-left:90px;
+	list-style-type: none;
+}
+
+.SSP-list-specific h1{
+	color: var(--titlesalmon);
+	margin-bottom:10px;
+}
+
+.SSP-list-specific li{
+	font-size: 20px;
+	counter-increment: list-item; /* Increment the counter for each list item */
+}
+
+.SSP-list-specific li::marker {
+	content: 'SSP ' counter(list-item) "	";
+	margin-right: 20px;
+	color: var(--lightblue);
+	counter-reset: list-item 13; /* Start the counter at 16 so the first item will be 17 */
+}
+
+@media only screen and (max-width: 1000px){
+	#title-img {
+		height:100%;
+		width:100%;
+		filter: opacity(0.4);
+		mask-image:none;
+		z-index:0;
+		object-fit: cover; /* Ensures the image is cropped to fit the container without distortion */
+		object-position: center; /* You can adjust this to show the part of the image you want, e.g. top, bottom, etc. */
+	}
+
+	.page-titel {	
+		display: flex;
+		height:75%;
+		padding-left:30px;
+		color:white;
+		position:relative;
+		justify-content:left;
+		align-items:end;
+		justify-items: start;
+		font-size: 30px;
+	}
+
+	#title-gross {
+		font-size: 25px;
+	}
+
+
+}
+
+@media only screen and (max-width: 600px){
+	#themenblock-titel {
+		font-size: 18px;
+	}
+
+	.container{
+		z-index: 1;
+		padding-top: 30px;
+		padding-left: 30px;
+		padding-right: 30px;
+	  display: grid; 
+	  grid-template-columns: 1fr; 
+	  grid-template-rows: auto; 
+	  gap: 30px 30px; 
+	  grid-template-areas: 
+		"disease_script"
+		"SSP"
+		"lecture";
+		overflow-x:auto;
+		overflow-y: hidden;
+		height:100%;
+	}
+
+	.page-titel {	
+		display: flex;
+		height:75%;
+		padding-left:30px;
+		color:white;
+		position:relative;
+		justify-content:left;
+		align-items:end;
+		justify-items: start;
+		font-size: 25px;
+	}
+}

@@ -1,0 +1,212 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  --purple: #734B5E;
+  --white: #ffffff;
+  --darkblue: #13192A;
+  --grey: #474848;
+  --grey_hover: #CBCDCD;
+  --height:30vh;
+}
+
+
+
+
+
+
+
+/* Body and General Styling */
+body {
+    font-family: Helvetica;
+    line-height: 1.6;
+	text-align: start;
+    background-color: var(--darkblue);
+	color:white;
+}
+
+html * {
+  font-family: Helvetica, sans-serif;
+}
+
+
+
+
+
+
+/*||*********HEADER STYLES**********||*/
+
+main {
+  text-align: left;
+display: block;
+padding:20px;
+}
+
+#titeltitel{
+z-index:1;
+font-size: 90px;
+padding-left: 20px;
+padding-bottom: 10px;
+height:auto;
+}
+
+
+/*||*********MAIN STYLES**********||*/
+header {
+    background-color: var(--purple);
+    color: white;
+    height:200px;
+    width: 100%;
+    display: flex;
+    position:relative;
+    justify-content:left;
+    align-items:end;
+    justify-items: start;
+}
+
+#header-img {
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  mask-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0));
+  position:absolute;
+  right:0;
+  top:0;
+  height:100%;
+}
+
+.item {
+ 	height: 330px;
+ 	width: 100%;
+
+	margin:auto;
+	color: white;
+	text-align: center;
+	transition: border 0.2s ease;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+}
+
+.bottom-block {
+    background-color: #FFFFFF;
+	height:70%;
+  width:100%;
+}
+
+.title-block {
+	background-color: var(--purple); /* Change the background color to what you like */
+    	color: white;
+    	padding: 0px;
+	display:flex;
+    	align-items: center;
+    	justify-content: center;
+   	text-align: center;
+	height:30%;
+  width:100%;
+}
+
+.title {
+	    font-size: 18px;
+    font-weight: bold;
+}
+
+.bottom-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image is cropped to fit the container without distortion */
+    object-position: center; /* You can adjust this to show the part of the image you want, e.g. top, bottom, etc. */
+    transition: filter 0.6s ease; /* Smooth transition for hover effect */
+	filter: opacity(1);
+}
+
+.item:hover .bottom-block img{
+    	filter: opacity(0.6); /* Restore the normal brightness */
+}
+
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height:100%;
+    padding-bottom:0px;
+    display: grid; 
+    gap: 30px 30px; 
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+      "Item-1 Item-2 Item-3 Item-4 Item-5"
+      "Item-6 Item-7 Item-8 Item-9 Item-10";
+    justify-items: center; 
+    align-items: center; 
+  }
+
+#themenblöcke { grid-area: Item-1; }
+#clinical-notes { grid-area: Item-2; }
+#clinical-reasoning { grid-area: Item-3; }
+#referenzbibliothek { grid-area: Item-4; }
+#fähigkeiten-und-verfahren { grid-area: Item-5; }
+#pharmakologie-und-medikamente { grid-area: Item-6; }
+#study-tools { grid-area: Item-7; }
+#berufliche-weiterentwicklung { grid-area: Item-8; }
+#forschung-und-projekte { grid-area: Item-9; }
+#ressourcen-und-werkzeuge { grid-area: Item-10; }
+
+#copyright {
+  position:absolute;
+  bottom:30px;
+}
+
+#graph {
+  width: 600px;
+  height: 600px;
+}
+
+
+/*||*********MEDIA STYLES**********||*/
+
+@media only screen and (max-width: 1000px){
+  .container {
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-areas: 
+    "Item-1 Item-2"
+    "Item-3 Item-4"
+    "Item-5 Item-6"
+    "Item-7 Item-8"
+    "Item-9 Item-10"; 
+  }
+
+  #titeltitel{
+    z-index:1;
+    font-size: 55px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    height:auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    grid-template-columns:1fr;
+    grid-template-areas: 
+    "Item-1"
+    "Item-2"
+    "Item-3"
+    "Item-4"
+    "Item-5"
+    "Item-6"
+    "Item-7"
+    "Item-8"
+    "Item-9"
+    "Item-10";
+  }
+}
+
+
+

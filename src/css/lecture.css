@@ -1,0 +1,588 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+/*||*********BODY AND GENERAL STYLES**********||*/
+
+body {
+  font-family: Helvetica;
+  line-height: 1.6;
+  background-color: var(--darkblue);
+  text-align: start;
+}
+
+html * {
+  font-family: Helvetica, sans-serif;
+}
+
+:root {
+  --purple: #734B5E;
+  --white: #ffffff;
+  --darkblue: #13192A;
+  --grey: #474848;
+  --grey_hover: #CBCDCD;
+  --lightblue: #8E9FCC;
+}
+
+
+
+
+
+
+
+/*||*********HEADER STYLES**********||*/
+
+.header {
+  flex-direction: column; /* Stack title and nav vertically */
+  height: 100px; /* Set height of the header (can adjust as needed) */
+  background-color: var(--purple); /* Background color of header */
+  position: relative; /* Position for absolute nav */
+top:0;
+width: 100%;
+height:150px;
+}
+
+.page-titel {	
+display: flex;
+height:80px;
+padding-left:30px;
+color:white;
+  position:relative;
+  justify-content:left;
+  align-items:end;
+  justify-items: start;
+font-size: 25px;
+}
+
+#lecture-subject {
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+#title-img {
+-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+mask-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0));
+position:absolute;
+right:0;
+top:0;
+height:100%;
+z-index: 1;
+}
+
+.navbar {
+height: 50px;
+position: absolute;
+width: 100%;
+left:0;
+bottom:0;
+z-index: 0;
+}
+
+.navbar ul{
+list-style-type:none;
+display: flex;
+flex-direction: row;
+background-color:var(--grey);
+padding: 0px;
+overflow: hidden;
+height:100%;
+}
+
+.navbar .header-item{
+color: black;
+text-decoration: none;
+background-color: var(--grey_hover);
+display:flex;
+justify-content: center;
+align-items: center;
+font-size: 18px;
+height: 100%;
+width:100%;
+padding: 20px;
+cursor: pointer;
+}
+
+.navbar #list{
+  background-color: var(--lightblue);
+}
+
+.navbar #list:hover {
+  background-color: var(--grey);
+}
+
+.navbar .header-item:hover{
+background-color: var(--grey);
+color: var(--white);
+}
+
+.navbar li {
+float: left;
+height: 100%;
+border-right: solid thin var(--grey)
+}
+
+
+
+
+
+
+
+/*||*********MAIN STYLES**********||*/
+
+#lecture-content{
+  display: grid; 
+  grid-template-columns: 1.1fr 1fr 0.9fr; 
+  grid-template-rows: 0.4fr 2.1fr; 
+  gap: 30px 30px; 
+  grid-template-areas: 
+    "Inhalt Inhalt HotFacts"
+    "Slides Slides HotFacts"; 
+}
+
+#lecture-content {
+  padding: 30px;
+}
+
+#content1 {
+  grid-area: Inhalt;
+}
+
+#content1 ul {
+  padding-left: 30px;
+}
+
+#hotfacts1 {
+  grid-area: HotFacts;
+  border: solid orange;
+  border-width: 15px;
+  border-style:groove;
+  background-color: rgb(235, 217, 183);
+}
+
+#lectureslides1 {
+  grid-area: Slides;
+}
+
+.section {
+  background-color: var(--white);
+  padding: 10px;
+}
+
+
+
+
+
+
+/*||*********SIDENAV STYLES**********||*/
+
+#button {
+	color: white;    /* Change the color if needed */
+	text-decoration: none; /* Remove underline */
+	cursor: pointer; /* Makes the cursor a pointer */
+	display: inline-block; /* Ensures the link wraps tightly around the symbol */
+	position: absolute;
+	right:0;
+	padding-right: 0;
+	font-size: 40px;
+}
+
+.close {
+	color: white;    /* Change the color if needed */
+	text-decoration: none; /* Remove underline */
+	cursor: pointer; /* Makes the cursor a pointer */
+	display: inline-block; /* Ensures the link wraps tightly around the symbol */
+	position: absolute;
+	right:0;
+	margin-right: 5%;
+	font-size: 40px;
+  }
+
+.sidenav {
+	position: fixed; /* Keeps the sidebar fixed in place */
+  display: none;
+  height: 100%;
+  width: 40vw;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  background-color: rgba(19, 25, 42, 0.795); /* Semi-transparent black */
+  overflow-x: hidden;
+  padding-top: 0vh;
+	padding-bottom: 10vh;
+	overflow-y: auto;
+	backdrop-filter: blur(60px); /* Blur effect */
+    -webkit-backdrop-filter: blur(40px); /* For Safari support */
+}
+
+.sidenav p {
+	padding-left: 25px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  display: block;
+}
+
+.sidenav a{
+	padding-left: 25px;
+	text-decoration: none;
+	font-size: 17px;
+	color: white;
+	display: block;
+}
+
+.sidenav h2{
+	color: #76A6BC;
+	border: solid #76A6BC;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+
+.sidenav h3 {
+	margin-top:20px;
+	margin-left:0px;
+	margin-right: 20px;
+	color:#e07b8f;
+}
+
+.Woche{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.title-vorlesungen {
+	padding-left: 20px;
+	padding-right: 40px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	height: auto;
+	color: #e07b8f;
+	font-size: 50px;
+}
+
+#link {
+	color:white;
+	margin-left:30px;
+}
+
+#link:hover {
+	color:#75C3FA;
+}
+
+
+
+
+
+
+ /*||*********LECTURE STYLES**********||*/
+
+  /* Styling Herz Lectures*/
+  #angeborene-herzfehler {
+    color: rgb(255, 208, 0);
+  }
+  #angeborene-herzfehler:hover {
+    color:white;
+  }
+  
+  #pathophysiologische-grundlagen {
+    color: rgb(0, 149, 255);
+  }
+  #pathophysiologische-grundlagen:hover {
+    color:white;
+  }
+  
+  #Herzrhythmusstörungen {
+    color: darkgray;
+  }
+  #Herzrhythmusstörungen:hover {
+    color:white;
+  }
+  
+  #gefässerkrankungen {
+    color: yellowgreen;
+  }
+  #gefässerkrankungen:hover {
+    color:white;
+  }
+  
+  #Koronare-Herzkrankheit {
+    color: red;
+  }
+  #Koronare-Herzkrankheit:hover {
+    color:white;
+  }
+  
+  #herzinsuffizienz {
+    color: teal;
+  }
+  #herzinsuffizienz:hover {
+    color:white;
+  }
+  
+  #Herzklappenerkrankungen {
+    color: rgb(0, 145, 0);
+  }
+  #Herzklappenerkrankungen:hover {
+    color:white;
+  }
+  
+  #Entzündliche-Herzerkrankungen {
+    color: greenyellow;
+  }
+  #Entzündliche-Herzerkrankungen:hover {
+    color:white;
+  }
+  
+  #Diagnostik {
+    color: rgb(140, 255, 207);
+  }
+  #Diagnostik:hover {
+    color:white;
+  }
+  
+  #Grundlagen-Herz{
+    color:white;
+  }
+  #Grundlagen-Herz:hover {
+    color: rgb(72, 169, 230);
+  }
+  
+  #EKG{
+    color:rgb(9, 170, 211)
+  }
+  #EKG:hover {
+    color: white;
+  }
+  /* Styling Atmung Lectures*/
+  
+  #Atemregulationsstörungen {
+    color: rgb(255, 208, 0);
+  }
+  #Atemregulationsstörungen:hover {
+    color:white;
+  }
+  
+  #Grundlagen {
+    color: rgb(0, 149, 255);
+  }
+  #Grundlagen:hover {
+    color:white;
+  }
+  
+  #lungentransplantation {
+    color: darkgray;
+  }
+  #lungentransplantation:hover {
+    color:white;
+  }
+  
+  #Lungenkrankheiten-bei-Kindern {
+    color: red;
+  }
+  #Lungenkrankheiten-bei-Kindern:hover {
+    color:white;
+  }
+  
+  #lungentumore {
+    color: teal;
+  }
+  #lungentumore:hover {
+    color:white;
+  }
+  
+  #Obstruktive-Atemwegserkrankungen {
+    color: rgb(90, 136, 90);
+  }
+  #Obstruktive-Atemwegserkrankungen:hover {
+    color:white;
+  }
+  
+  #Vaskuläre-Erkrankungen {
+    color: greenyellow;
+  }
+  #Vaskuläre-Erkrankungen:hover {
+    color:white;
+  }
+  
+  #Infekte-der-Atemwege {
+    color: rgb(140, 255, 207);
+  }
+  #Infekte-der-Atemwege:hover {
+    color:white;
+  }
+  
+  #diffuse-parenchym {
+    color: rgb(72, 169, 230);
+  }
+  #diffuse-parenchym:hover {
+    color:white;
+  }
+  
+  /*Styling Grunlagen Lectures*/
+  #Pathologie {
+    color: rgb(255, 208, 0);
+  }
+  #Pathologie:hover {
+    color:white;
+  }
+  
+  #med_genetik {
+    color: blue;
+  }
+  #med_genetik:hover {
+    color:white;
+  }
+  
+  #bild_verfahren {
+    color: darkgray;
+  }
+  #bild_verfahren:hover {
+    color:white;
+  }
+  
+  #hämatologie {
+    color: yellowgreen;
+  }
+  #hämatologie:hover {
+    color:white;
+  }
+  
+  #Onkologie {
+    color: red;
+  }
+  #Onkologie:hover {
+    color:white;
+  }
+  
+  #grundversorgung {
+    color: teal;
+  }
+  #grundversorgung:hover {
+    color:white;
+  }
+  
+  #geriatrie {
+    color: darkgreen;
+  }
+  #geriatrie:hover {
+    color:white;
+  }
+  
+  #klin_chemie {
+    color: rgb(0, 52, 184);
+  }
+  #klin_chemie:hover {
+    color:white;
+  }
+  
+  #Immunologie {
+    color: greenyellow;
+  }
+  #Immunologie:hover {
+    color:white;
+  }
+  
+  #Mikrobiologie {
+    color: rgb(140, 255, 207);
+  }
+  #Mikrobiologie:hover {
+    color:white;
+  }
+  
+  #Virologie {
+    color: rgb(72, 169, 230);
+  }
+  #Virologie:hover {
+    color:white;
+  }
+  
+  #parasitologie {
+    color: rgb(255, 34, 0);
+  }
+  #parasitologie:hover {
+    color:white;
+  }
+  
+  #pharmakologie {
+    color: rgb(142, 97, 195);
+  }
+  #pharmakologie:hover {
+    color:white;
+  }
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px){
+  .sidenav {
+		width: 60vw;
+	}
+
+	.title-vorlesungen {
+		padding-left: 20px;
+		padding-right: 40px;
+		padding-top: 30px;
+		padding-bottom: 20px;
+		height: auto;
+		color: #e07b8f;
+		font-size: 30px;
+	}
+
+  #title-img {
+		height:100%;
+		width:100%;
+		filter: opacity(0.4);
+		mask-image:none;
+		z-index:0;
+		object-fit: cover; /* Ensures the image is cropped to fit the container without distortion */
+		object-position: center; /* You can adjust this to show the part of the image you want, e.g. top, bottom, etc. */
+	}
+
+  .page-titel {	
+    display: flex;
+    height:80px;
+    padding-left:30px;
+    color:white;
+      position:relative;
+      justify-content:left;
+      align-items:end;
+      justify-items: start;
+    font-size: 18px;
+    }
+
+    #lecture-subject {
+      display: none;
+    }
+
+    #lecture-content{
+      display: grid; 
+      grid-template-columns: 1.1fr 1fr; 
+      grid-template-rows: 0.4fr 0.5fr 2.6fr; 
+      gap: 30px 30px; 
+      grid-template-areas: 
+        "Inhalt Inhalt"
+        "HotFacts HotFacts"
+        "Slides Slides"; 
+    }
+}
+
+@media only screen and (max-width: 600px){
+  .sidenav {
+		width: 81vw;
+	}
+}
+
+

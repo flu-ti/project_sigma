@@ -1,0 +1,198 @@
+{
+    "title": "Grundlagen der Diagnostik und Therapie",
+    "week": [
+      {
+        "weekNumber": 2,
+        "days": [
+          {
+            "date": "27.09.2024",
+            "lectures": [
+              {
+                "subject":"Virologie",
+                "title":"Viren und ihre Eigenschaften",
+                "url":""
+              },
+              {
+                "subject":"Virologie",
+                "title":"Viruslebenszyklus in der Wirtszelle",
+                "url":""
+              },
+              {
+                "subject":"Mikrobiologie",
+                "title":"Einführung Mikrobiologie",
+                "url":""
+              },
+              {
+                "subject":"Mikrobiologie",
+                "title":"Phänotypische Charakterisierung",
+                "url":""
+              }
+            ]
+          },
+          {
+            "date": "26.09.2024",
+            "lectures": [
+              {
+                "subject":"Immunologie",
+                "title":"Autoimmunität und chronische Entzündungen",
+                "url":""
+              },
+              {
+                "subject":"Immunologie",
+                "title":"Allergien",
+                "url":""
+              },
+              {
+                "subject":"Immunologie",
+                "title":"Immunkontrolle von Infektionen",
+                "url":""
+              },
+              {
+                "subject":"Immunologie",
+                "title":"Tumorimmunologie",
+                "url":""
+              }
+            ]
+          },
+          {
+            "date": "25.09.2024",
+            "lectures": [
+              {
+                "themenblock": "grundlagen",
+                "subject":"Pathologie",
+                "title":"Amyloidose",
+                "url":""
+              },
+              {
+                "themenblock": "grundlagen",
+                "subject":"Pathologie",
+                "title":"Pathologische Verkalkung",
+                "url":""
+              },
+              {
+                "themenblock": "grundlagen",
+                "subject":"Immunologie",
+                "title":"Toleranz 1",
+                "url":""
+              },
+              {
+                "themenblock": "grundlagen",
+                "subject":"Immunologie",
+                "title":"Toleranz 2",
+                "url":""
+              }
+            ]
+          },
+          {
+            "date": "23.09.2024",
+            "lectures": [
+              {
+                "themenblock": "grundlagen",
+                "subject":"Pathologie",
+                "title":"Labordiagnostik der Entzündung",
+                "url":""
+              },
+              {
+                "themenblock": "grundlagen",
+                "subject":"Pathologie",
+                "title":"Entzündung",
+                "url":""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 1,
+        "days": [
+          {
+            "date": "20.09.2024",
+            "lectures": [
+              {
+                "themenblock": "grundlagen",
+                "subject": "Pathologie",
+                "title": "Zelltod",
+                "url": ""
+              },
+              {
+                "themenblock": "grundlagen",
+                "subject": "Pathologie",
+                "title": "Atrophie, Hyperplasie, Hypertrophie",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "date": "19.09.2024",
+            "lectures": [
+              {
+                "themenblock": "grundlagen",
+                "subject": "Pathologie",
+                "title": "Kreislaufpathologie 1",
+                "url": ""
+              },
+              {
+                "themenblock": "grundlagen",
+                "subject": "Pathologie",
+                "title": "Kreislaufpathologie 2",
+                "url": ""
+              },
+              {
+                "themenblock": "grundlagen",
+                "subject": "Pathologie",
+                "title": "Kreislaufpathologie 3",
+                "url": ""
+              },
+              {
+                "themenblock": "grundlagen",
+                "subject": "Pathologie",
+                "title": "Qualität Labormedizinischer Tests",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "date": "18.09.2024",
+            "lectures": [
+              {
+                "themenblock": "grundlagen",
+                "subject": "Pathologie",
+                "title": "Hypoxie und Ischämie",
+                "url": ""
+              },
+              {
+                "themenblock": "grundlagen",
+                "subject": "Pathologie",
+                "title": "Zelluläre Adaptation,Zellschaden",
+                "url": ""
+              }
+            ]
+          },
+          {
+            "date": "16.09.2024",
+            "lectures": [
+              { 
+                "themenblock": "grundlagen",
+                "subject": "Pathologie",
+                "title": "Einführung Pathologie",
+                "url": "/assets/Grundlagen/16.09.24-einführung.md",
+                "slides": "/assets/Grundlagen/Extrazelluläre Matrix.pdf"
+              },
+              {
+                "themenblock": "grundlagen",
+                "subject": "Pathologie",
+                "title": "Autopsie",
+                "url": ""
+              },
+              {
+                "themenblock": "grundlagen",
+                "subject": "Pathologie",
+                "title": "Extrazelluläre Matrix",
+                "url": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
