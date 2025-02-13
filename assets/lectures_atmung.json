@@ -1,0 +1,165 @@
+{
+  "title": "Atmung",
+  "week": [
+    {
+      "weekNumber": 10,
+      "days": [
+        {
+          "date": "22.11.2024",
+          "lectures": [
+            {
+              "subject":"Infekte der Atemwege",
+              "title":"Einführung",
+              "url":""
+            },
+            {
+              "subject":"Infekte der Atemwege",
+              "title":"Virale Infektionen",
+              "url":""
+            },
+            {
+              "subject":"Infekte der Atemwege",
+              "title":"Erreger bakterieller Pneumonie",
+              "url":""
+            },
+            {
+              "subject":"Infekte der Atemwege",
+              "title":"Klinische Fallbeispiele",
+              "url":""
+            }
+          ]
+        },
+        {
+          "date": "21.11.2024",
+          "lectures": [
+            {
+              "subject":"Vaskuläre Erkrankungen",
+              "title":"Pulmonale Hypertonie",
+              "url":""
+            },
+            {
+              "subject":"Atemregulationsstörungen",
+              "title":"ARS 1",
+              "url":""
+            },
+            {
+              "subject":"Atemregulationsstörungen",
+              "title":"ARS 2",
+              "url":""
+            },
+            {
+              "subject":"Grundlagen",
+              "title":"Lunge und Arbeit",
+              "url":""
+            }
+          ]
+        },
+        {
+          "date": "20.11.2024",
+          "lectures": [
+            {
+              "subject":"Lungenkrankheiten bei Kindern",
+              "title":"Asthma beim Kind",
+              "url":""
+            },
+            {
+              "subject":"Lungenkrankheiten bei Kindern",
+              "title":"Lungen- und Atemwegserkrankungen beim Kind 1",
+              "url":""
+            },
+            {
+              "subject":"Lungenkrankheiten bei Kindern",
+              "title":"Lungen- und Atemwegserkrankungen beim Kind 2",
+              "url":""
+            },
+            {
+              "subject":"Obstruktive Atemwegserkrankungen",
+              "title":"Medikamente bei obstruktiven Atemwegserkrankungen + Corticosteroide",
+              "url":""
+            }
+          ]
+        },
+        {
+          "date": "18.11.2024",
+          "lectures": [
+            {
+              "subject":"Obstruktive Atemwegserkrankungen",
+              "title":"Allergien",
+              "url":""
+            },
+            {
+              "subject":"Grundlagen",
+              "title":"Dyspnoe und Leistungsdiagnostik",
+              "url":""
+            },
+            {
+              "subject":"Obstruktive Atemwegserkrankungen",
+              "title":"COPD",
+              "url":""
+            },
+            {
+              "subject":"Obstruktive Atemwegserkrankungen",
+              "title":"Asthma",
+              "url":""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weekNumber": 9,
+      "days": [
+        {
+          "date": "15.11.2024",
+          "lectures": [
+            {
+              "subject": "Grundlagen",
+              "title": "Gasaustausch/ Blutgase",
+              "url": ""
+            },
+            {
+              "subject": "Infekte der Atemwege",
+              "title": "Rhinitis und Rhinosinusitis",
+              "url": ""
+            },
+            {
+              "subject": "Infekte der Atemwege",
+              "title": "Husten",
+              "url": ""
+            },
+            {
+              "subject": "Obstruktive Atemwegserkrankungen",
+              "title": "Obstruktive Lungenerkrankungen",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "date": "14.11.2024",
+          "lectures": [
+            {
+              "subject": "Grundlagen",
+              "title": "Atemmechanik",
+              "url": ""
+            },
+            {
+              "subject": "Grundlagen",
+              "title": "Lungenzirkulation und Gasaustausch",
+              "url": ""
+            },
+            {
+              "subject": "Grundlagen",
+              "title": "Einteilung von Lungenkrankheiten/ Obstruktive Lungenkrankheiten",
+              "url": ""
+            },
+            {
+              "subject": "Grundlagen",
+              "title": "Ateminsuffizienz",
+              "url": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

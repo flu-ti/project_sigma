@@ -1,0 +1,180 @@
+{
+  "title": "Herz und Kreislauf",
+  "week": [
+    {
+      "weekNumber": 13,
+      "days": [
+        {
+          "date": "13.12.2024",
+          "lectures": [
+            {
+              "subject":"Herzklappenerkrankungen",
+              "title":"Aortenklappenerkrankungen",
+              "url":""
+            },
+            {
+              "subject":"Herzklappenerkrankungen",
+              "title":"Mitralklappenerkrankungen",
+              "url":""
+            },
+            {
+              "subject":"Herzklappenerkrankungen",
+              "title":"Demo",
+              "url":""
+            },
+            {
+              "subject":"Herzrhythmusstörungen",
+              "title":"Case-based Troubleshooting (Arrhythmien)",
+              "url":""
+            }
+          ]
+        },
+        {
+          "date": "12.12.2024",
+          "lectures": [
+            {
+              "subject":"Herzrhythmusstörungen",
+              "title":"Supraventrikuläre Tachykardien",
+              "url":""
+            },
+            {
+              "subject":"Herzrhythmusstörungen",
+              "title":"Ventrikuläre Tachykardien",
+              "url":""
+            },
+            {
+              "subject":"EKG",
+              "title":"2",
+              "url":""
+            },
+            {
+              "subject":"Herzrhythmusstörungen",
+              "title":"Vorhofflimmern POL",
+              "url":""
+            }
+          ]
+        },
+        {
+          "date": "11.12.2024",
+          "lectures": [
+            {
+              "subject":"Herzrhythmusstörungen",
+              "title":"Grundlagen der Rhythmologie, Antiarrhytmika + Bradykardien",
+              "url":""
+            },
+            {
+              "subject":"Koronare Herzkrankheit",
+              "title":"Demo",
+              "url":""
+            },
+            {
+              "subject":"Koronare Herzkrankheit",
+              "title":"POL",
+              "url":""
+            }
+          ]
+        },
+        {
+          "date": "09.12.2024",
+          "lectures": [
+            {
+              "subject":"Koronare Herzkrankheit",
+              "title":"Stabile KHK 1",
+              "url":""
+            },
+            {
+              "subject":"Koronare Herzkrankheit",
+              "title":"Stabile KHK 2",
+              "url":""
+            },
+            {
+              "subject":"Koronare Herzkrankheit",
+              "title":"Akutes Koronarsyndrom 1",
+              "url":""
+            },
+            {
+              "subject":"Koronare Herzkrankheit",
+              "title":"Akutes Koronarsyndrom 2",
+              "url":""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weekNumber": 12,
+      "days": [
+        {
+          "date": "06.12.2024",
+          "lectures": [
+            {
+              "subject": "Entzündliche Herzerkrankungen",
+              "title": "Myokarditis und Perikarditis",
+              "url": ""
+            },
+            {
+              "subject": "Entzündliche Herzerkrankungen",
+              "title": "Endokarditis",
+              "url": ""
+            },
+            {
+              "subject": "Entzündliche Herzerkrankungen",
+              "title": "Demo",
+              "url": ""
+            },
+            {
+              "subject": "EKG",
+              "title": "1 - Basiskurs",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "date": "05.12.2024",
+          "lectures": [
+            {
+              "subject": "Koronare Herzkrankheit",
+              "title": "Kardiopharmakologie",
+              "url": ""
+            },
+            {
+              "subject": "Diagnostik",
+              "title": "CT und MRI",
+              "url": ""
+            },
+            {
+              "subject": "Koronare Herzkrankheit",
+              "title": "Prävention II (Hypertonie)",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "date": "04.12.2024",
+          "lectures": [
+            {
+              "subject": "Grundlagen Herz",
+              "title": "Einführung",
+              "url": ""
+            },
+            {
+              "subject": "Koronare Herzkrankheit",
+              "title": "Prävention I (Dyslipidämie)",
+              "url": ""
+            },
+            {
+              "subject": "Diagnostik",
+              "title": "Nuklearmedizin",
+              "url": ""
+            },
+            {
+              "subject": "Diagnostik",
+              "title": "Echokardiographie",
+              "url": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
