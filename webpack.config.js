@@ -2,9 +2,14 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const isGitHubPages = process.env.DEPLOY_TARGET === "gh-pages";
 const isProduction = process.env.NODE_ENV === "production";
+const publicPath = isGitHubPages ? "/project_sigma/" : "/";
+
+console.log("Active publicPath:", publicPath);
 
 module.exports = {
+  mode: isProduction ? "production" : "development", // Explicitly set mode
   devtool: 'source-map',
   entry: {
     sigmaCSV: './src/js/sigmaCSV.js', // Your main JS file
@@ -18,7 +23,7 @@ module.exports = {
   output: {
     filename: 'js/[name].js', // The output bundled file
     path: path.resolve(__dirname, 'dist'), // Output folder (dist)
-    publicPath: isProduction ? "/project_sigma/" : "/",
+    publicPath: isGitHubPages ? "/project_sigma/" : "/",
   },
 
   devServer: {
@@ -26,9 +31,15 @@ module.exports = {
     compress: true,
     port: 9000, // Port for the dev server
     open: true, // Open the browser automatically
+    client: {
+      overlay: {
+        warnings: false, // This hides warnings from the overlay
+        errors: true,    // This still shows critical errors
+      },
+    },
   },
 
-  mode: isProduction ? "production" : "development",
+  mode: "production",
 
   module: {
     rules: [
