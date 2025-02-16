@@ -135,6 +135,7 @@ main {
 	padding-top: 30px;
 	padding-left: 30px;
 	padding-right: 30px;
+	padding-bottom: 30px;
   display: grid; 
   grid-template-columns: 1fr 1fr; 
   grid-template-rows: auto; 
@@ -157,6 +158,10 @@ main {
 #mindmap_atmung {grid-area: Image-2;}
 #mindmap_herz {grid-area: Image-3;}
 
+
+#psychosozial { grid-area: Item-1;}
+#mindmap_psychosozial {grid-area: Image-1;}
+
 .semester {
 	grid-area: semester;
 	justify-self: start;
@@ -175,7 +180,7 @@ main {
 }
 
 .themenbloecke {
- 	height: 250px;
+ 	height: 270px;
  	width: 100%;
 	min-width: 300px;
   	padding: 0px; 
@@ -191,7 +196,7 @@ main {
     	align-items: center;
     	justify-content: center;
    	text-align: center;
-	height:30%;	
+	height:25%;	
 }
 
 .title_themenblöcke {
@@ -206,13 +211,13 @@ main {
 
 .bottom-block {
     background-color: #FFFFFF;
-	height:70%;
+	height:75%;
 }
 
 .bottom-block img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the image is cropped to fit the container without distortion */
+    object-fit:cover; /* Ensures the image is cropped to fit the container without distortion */
     object-position: center; /* You can adjust this to show the part of the image you want, e.g. top, bottom, etc. */
     transition: filter 0.6s ease; /* Smooth transition for hover effect */
 	filter: opacity(1);
@@ -656,6 +661,18 @@ h3 {
 	color: rgb(142, 97, 195);
 }
 #pharmakologie:hover {
+	color:white;
+}
+
+/*Styling Psychosozial Lectures*/
+
+#PSM {
+	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+}
+#PSM:hover {
 	color:white;
 }
 

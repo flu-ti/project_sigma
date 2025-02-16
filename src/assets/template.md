@@ -1,14 +1,13 @@
-# ECG Basics
-
-## Introduction
-This is an introduction to ECG interpretation.
+# Einfuehrung
 
 ## Content
-Here is the main content of the lecture.
 
-- Understanding the P wave
-- QRS complex analysis
-- T wave abnormalities
+- Einführung in Thema
+- Verschiedene Begriffe
 
-## Summary
-This is a short summary of the topic.
+## Hot Facts
+
+Nadja ist die Beste
+
+## Lecture Slides
+

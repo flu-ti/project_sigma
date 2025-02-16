@@ -1,0 +1,29 @@
+{
+    "title": "Psychosoziale Medizin",
+    "week": [
+      {
+        "weekNumber": 1,
+        "days": [
+          {
+            "date": "17.02.2025",
+            "lectures": [
+              {
+                "themenblock": "psychosozial",
+                "subject":"PSM",
+                "title":"Kooperation-Compliance-Behandlungskrisen",
+                "url": "/assets/Psychosozial/20250217-kooperation-compliance-behandlungskrisen.md",
+                "slides": "/assets/Psychosozial/3_250217_08_PSM2_Hepp_Kooperation-Compliance-Behandlungskrisen.pdf"
+              },
+              {
+                "themenblock": "psychosozial",
+                "subject":"PSM",
+                "title":"Umgang mit chronischen Krankheiten",
+                "url": "/assets/Psychosozial/20250217-umgang-mit-chronischen-krankheiten.md",
+                "slides": "/assets/Psychosozial/3_250219_08_PSM2_von-Kaenel_Umgang-mit-chronischen-Krankheiten.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

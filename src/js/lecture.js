@@ -6,6 +6,7 @@ async function loadLectureContent() {
     const lectureId = params.get('id');
     var block = params.get('block')
 
+    console.log(block)
 
     if (!lectureId) {
         console.error("No lecture ID provided.");
@@ -16,7 +17,7 @@ async function loadLectureContent() {
     try {
         // Fetch the metadata JSON
         const response = await fetch(`/assets/lectures_${block}.json`);
-        if (!response.ok) throw new Error("Failed to fetch JSON in Grundlagen");
+        if (!response.ok) throw new Error("Failed to fetch JSON");
 
         const data = await response.json();
 

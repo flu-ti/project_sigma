@@ -2,8 +2,7 @@
 
 ## Content
 
-- Einführung in Thema
-- Verschiedene Begriffe
+- Umgang mit chronischen Krankheiten
 
 ## Hot Facts
 

@@ -157,6 +157,10 @@ main {
 #mindmap_atmung {grid-area: Image-2;}
 #mindmap_herz {grid-area: Image-3;}
 
+
+#psychosozial { grid-area: Item-1;}
+#mindmap_psychosozial {grid-area: Image-1;}
+
 .semester {
 	grid-area: semester;
 	justify-self: start;
