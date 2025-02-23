@@ -1,0 +1,68 @@
+{
+    "title": "Bewegungsapparat",
+    "week": [
+    {
+        "weekNumber": 1,
+        "days": [
+        {
+            "date": "21.02.2025",
+            "lectures": [
+                {
+                    "themenblock": "bewegungsapparat",
+                    "subject":"Rheumatologie",
+                    "title":"Axiale Spondyloarthritis",
+                    "url": "/assets/Bewegungsapparat/250221_axiale-spondyloarthritis.md",
+                    "slides": "/assets/Bewegungsapparat/3_250221_08_Bewegungsapparat_Ciurea_axiale-Spondyloarthritis.pdf"
+                },
+                {
+                    "themenblock": "bewegungsapparat",
+                    "subject":"Rheumatologie",
+                    "title":"Psoriasisarthritis",
+                    "url": "/assets/Bewegungsapparat/250221_psoriasisarthritis.md",
+                    "slides": "/assets/Bewegungsapparat/3_250221_09_Bewegungsapparat_Ciurea_Psoriasisarthritis.pdf"
+                },                {
+                    "themenblock": "bewegungsapparat",
+                    "subject":"Rheumatologie",
+                    "title":"Juvenile Idiopathische Arthritis",
+                    "url": "/assets/Bewegungsapparat/250221_juvenile-idiopathische-arthritis.md",
+                    "slides": "/assets/Bewegungsapparat/3_250221_10_Bewegungsapparat_Saurenmann_Juvenile-Idiopathische-Arthritis.pdf"
+                },
+                {
+                "themenblock": "bewegungsapparat",
+                "subject":"Bewegungsapparat",
+                "title":"Sicca-Syndrom",
+                "url": "/assets/Bewegungsapparat/250221_sicca-syndrom.md",
+                "slides": "/assets/Bewegungsapparat/3_250221_11_Bewegungsapparat_Sprecher_Sicca-Syndrom.pdf"
+                }
+            ]
+        },
+        {
+            "date": "20.02.2025",
+            "lectures": [
+                {
+                    "themenblock": "bewegungsapparat",
+                    "subject":"Rheumatologie",
+                    "title":"Einführung",
+                    "url": "/assets/Bewegungsapparat/250220_einführung.md",
+                    "slides": "/assets/Bewegungsapparat/3_250220_08_Bewegungsapparat_Wildi_Einfuhrung-Rheumatologie.pdf"
+                },
+                {
+                    "themenblock": "bewegungsapparat",
+                    "subject":"Rheumatologie",
+                    "title":"Anamnese",
+                    "url": "/assets/Bewegungsapparat/250220_anamnese.md",
+                    "slides": "/assets/Bewegungsapparat/3_250220_09_Bewegungsapparat_Wildi_Anamnese.pdf"
+                },
+                {
+                    "themenblock": "bewegungsapparat",
+                    "subject":"Rheumatologie",
+                    "title":"Rheumatoide Arthritis",
+                    "url": "/assets/Bewegungsapparat/250220_rheumatoide-arthritis.md",
+                    "slides": "/assets/Bewegungsapparat/3_250220_10_Bewegungsapparat_Ciurea_RheumatoideArthritis.pdf"
+                }
+            ]
+        }
+        ]
+    }
+]
+}

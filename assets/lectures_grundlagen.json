@@ -2,30 +2,805 @@
     "title": "Grundlagen der Diagnostik und Therapie",
     "week": [
       {
+        "weekNumber": 9,
+        "days": [
+          {
+            "date": "13.11.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Onkologie",
+                "title":"Komplementärmedizin",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Hämatologie",
+                "title":"Patient Blood Management",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Onkologie",
+                "title":"Psychoonkologie",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Onkologie",
+                "title":"Strahlentherapie",
+                "url":"",
+                "slides":""
+              }
+            ]
+          },
+          {
+            "date": "11.11.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Onkologie",
+                "title":"Systemtherapie 1",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Onkologie",
+                "title":"Systemtherapie 2",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Onkologie",
+                "title":"Immuntherapie",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Onkologie",
+                "title":"Infektkomplikationen bei Chemotherapien",
+                "url":"",
+                "slides":""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 8,
+        "days": [
+          {
+            "date": "08.11.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Onkologie",
+                "title":"Einführung",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Onkologie",
+                "title":"Methoden pathologischer Diagnostik und Onko-Pathologie",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Grundversorgung",
+                "title":"Grundversorgung",
+                "url":"",
+                "slides":""
+              }
+            ]
+          },
+          {
+            "date": "07.11.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Geriatrie",
+                "title":"Demographie und Biologie des Alterns",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Geriatrie",
+                "title":"Funktionelle Veränderungen des Alterns",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Geriatrie",
+                "title":"Grundlagen der Geriatrie",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Geriatrie",
+                "title":"Grundlagen des geriatrischen Assessments",
+                "url":"",
+                "slides":""
+              }
+            ]
+          },
+          {
+            "date": "06.11.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Onkologie",
+                "title":"Symptomatische Therapie",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Hämatologie",
+                "title":"Thrombophilie und Thrombose",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Onkologie",
+                "title":"Tumorepidemiologie und Krebsregister",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Onkologie",
+                "title":"Infektion und Krebs",
+                "url":"",
+                "slides":""
+              }
+            ]
+          },
+          {
+            "date": "04.11.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Pharmakologie",
+                "title":"Neuropharmakologie",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Hämatologie",
+                "title":"Anämien",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Hämatologie",
+                "title":"Transfusionsmedizin",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Hämatologie",
+                "title":"Hämorrhagische Diathese",
+                "url":"",
+                "slides":""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 7,
+        "days": [
+          {
+            "date": "01.11.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Bildgebende Verfahren",
+                "title":"Konventionelle Radiologie",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Onkologie",
+                "title":"Grundlagen chirurgischer Tumortherapie",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Onkologie",
+                "title":"Palliative und terminale Betreuung",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Onkologie",
+                "title":"Onkologische Notfälle",
+                "url":"",
+                "slides":""
+              }
+            ]
+          },
+          {
+            "date": "31.10.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Onkologie",
+                "title":"Screening",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Onkologie",
+                "title":"Screening und Prävention",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Onkologie",
+                "title":"Tumormarker",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"???",
+                "title":"Vom Symptom zur Diagnose",
+                "url":"",
+                "slides":""
+              }
+            ]
+          },
+          {
+            "date": "30.10.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Onkologie",
+                "title":"Tumorpathologie 3",
+                "url":"",
+                "slides":""
+              }
+            ]
+          },
+          {
+            "date": "28.10.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Onkologie",
+                "title":"Tumorpathologie 1",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Onkologie",
+                "title":"Tumorpathologie 2",
+                "url":"",
+                "slides":""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 6,
+        "days": [
+          {
+            "date": "25.10.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Pharmakologie",
+                "title":"Narkotika",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Pharmakologie",
+                "title":"Analgetika",
+                "url":"",
+                "slides":""
+              }
+            ]
+          },
+          {
+            "date": "24.10.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Pharmakologie",
+                "title":"Antihypertonika",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Pharmakologie",
+                "title":"Lokalanästhetika",
+                "url":"",
+                "slides":""
+              }
+            ]
+          },
+          {
+            "date": "23.10.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Pharmakologie",
+                "title":"Antihyperlipidämische Medikamente 2",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Pharmakologie",
+                "title":"Arzneimittelzulassung- und Verordnung",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Pharmakologie",
+                "title":"Pharmakologie der Blutgerinnung und Fibrinolyse",
+                "url":"",
+                "slides":""
+              }
+            ]
+          },
+          {
+            "date": "21.10.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Pharmakologie",
+                "title":"Toxikologie",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Pharmakologie",
+                "title":"Genderspezifische Pharmakologie",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Pharmakologie",
+                "title":"Antihyperlipidämische Medikamente 1",
+                "url":"",
+                "slides":""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 5,
+        "days": [
+          {
+            "date": "18.10.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Pharmakologie",
+                "title":"Pharmakologie des cholinergen Systems",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Pharmakologie",
+                "title":"Pharmakologie des adrenergen Systems",
+                "url":"",
+                "slides":""
+              }
+            ]
+          },
+          {
+            "date": "17.10.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Pharmakologie",
+                "title":"Therapeutic Drug Monitoring",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Pharmakologie",
+                "title":"Pharmakogenetik",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Pharmakologie",
+                "title":"Interaktionen und unerwünschte Wirkungen",
+                "url":"",
+                "slides":""
+              }
+            ]
+          },
+          {
+            "date": "16.10.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Onkologie",
+                "title":"Bildgebung, Staging und Intervention",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Bildgebende Verfahren",
+                "title":"Computertomographie",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Bildgebende Verfahren",
+                "title":"Nuklearmedizin",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Pharmakologie",
+                "title":"Pharmakokinetik",
+                "url":"",
+                "slides":""
+              }
+            ]
+          },
+          {
+            "date": "14.10.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Medizinische Genetik",
+                "title":"5",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Medizinische Genetik",
+                "title":"6",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Bildgebende Verfahren",
+                "title":"Ultraschall und MRI",
+                "url":"",
+                "slides":""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 4,
+        "days": [
+          {
+            "date": "",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Medizinische Genetik",
+                "title":"Teratologie/Pädopathologie",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Mikrobiologie",
+                "title":"The return of anaerobier und Repetition",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Mikrobiologie",
+                "title":"Mykologie",
+                "url":"",
+                "slides":""
+              }
+            ]
+          },
+          {
+            "date": "10.10.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Mikrobiologie",
+                "title":"Spirochäten, Coxiella burnetoo, Borelien",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Mikrobiologie",
+                "title":"Anaerobier",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Parasitologie",
+                "title":"Helminthen, intestinale Protozoen, Ektoparasiten",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Parasitologie",
+                "title":"Intestinale Helminthen, Ektoparasiten",
+                "url":"",
+                "slides":""
+              }
+            ]
+          },
+          {
+            "date": "09.10.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Mikrobiologie",
+                "title":"Salmonellen und Campylobacter spp. und mehr",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Mikrobiologie",
+                "title":"Neisserien, Chlamydien und Helicobacter",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Medizinische Genetik",
+                "title":"3+4",
+                "url":"",
+                "slides":""
+              }
+            ]
+          },
+          {
+            "date": "07.10.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Mikrobiologie",
+                "title":"Enterokokken, Corynebakterien, Bacillus anthracis",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Mikrobiologie",
+                "title":"Enterobacteriacea",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Medizinische Genetik",
+                "title":"1",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Medizinische Genetik",
+                "title":"2",
+                "url":"",
+                "slides":""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "weekNumber": 3,
+        "days": [
+          {
+            "date": "04.10.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Mikrobiologie",
+                "title":"Staphylokokken",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Mikrobiologie",
+                "title":"Streptokokken",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Parasitologie",
+                "title":"Toxoplasma, Leishmania, Intestinale Protozoen",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Parasitologie",
+                "title":"Malaria",
+                "url":"",
+                "slides":""
+              }
+            ]
+          },
+          {
+            "date": "03.10.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Virologie",
+                "title":"SARS-CoV-2",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Mikrobiologie",
+                "title":"Infektabwehr und Transmission",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Mikrobiologie",
+                "title":"Wie Antibiotika wirken",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Mikrobiologie",
+                "title":"Antiobiotikaresistenzen",
+                "url":"",
+                "slides":""
+              }
+            ]
+          },
+          {
+            "date": "02.10.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Virologie",
+                "title":"Impfstoffe und antivirale Medikamente",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Virologie",
+                "title":"Diagnostik viraler Erkrankungen",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Mikrobiologie",
+                "title":"Wirt-Mikroben-Beziehung",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Mikrobiologie",
+                "title":"Normalflora und das Mikrobiom",
+                "url":"",
+                "slides":""
+              }
+            ]
+          },
+          {
+            "date": "30.09.2024",
+            "lectures": [
+              {
+                "themenblock":"grundlagen",
+                "subject":"Virologie",
+                "title":"Infektion und Übertragung von Viren",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Virologie",
+                "title":"Immunität, Immune-evasion, Evolution",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Mikrobiologie",
+                "title":"Genotypische Charakterisierung",
+                "url":"",
+                "slides":""
+              },
+              {
+                "themenblock":"grundlagen",
+                "subject":"Mikrobiologie",
+                "title":"Künstliche Intelligenz in der mikrobiologischen Diagnostik",
+                "url":"",
+                "slides":""
+              }
+            ]
+          }
+        ]
+      },
+      {
         "weekNumber": 2,
         "days": [
           {
             "date": "27.09.2024",
             "lectures": [
               {
+                "themenblock":"grundlagen",
                 "subject":"Virologie",
                 "title":"Viren und ihre Eigenschaften",
-                "url":""
+                "url":"",
+                "slides":""
               },
               {
+                "themenblock":"grundlagen",
                 "subject":"Virologie",
                 "title":"Viruslebenszyklus in der Wirtszelle",
-                "url":""
+                "url":"",
+                "slides":""
               },
               {
+                "themenblock":"grundlagen",
                 "subject":"Mikrobiologie",
                 "title":"Einführung Mikrobiologie",
-                "url":""
+                "url":"",
+                "slides":""
               },
               {
+                "themenblock":"grundlagen",
                 "subject":"Mikrobiologie",
                 "title":"Phänotypische Charakterisierung",
-                "url":""
+                "url":"",
+                "slides":""
               }
             ]
           },
@@ -33,24 +808,32 @@
             "date": "26.09.2024",
             "lectures": [
               {
+                "themenblock":"grundlagen",
                 "subject":"Immunologie",
                 "title":"Autoimmunität und chronische Entzündungen",
-                "url":""
+                "url":"",
+                "slides":""
               },
               {
+                "themenblock":"grundlagen",
                 "subject":"Immunologie",
                 "title":"Allergien",
-                "url":""
+                "url":"",
+                "slides":""
               },
               {
+                "themenblock":"grundlagen",
                 "subject":"Immunologie",
                 "title":"Immunkontrolle von Infektionen",
-                "url":""
+                "url":"",
+                "slides":""
               },
               {
+                "themenblock":"grundlagen",
                 "subject":"Immunologie",
                 "title":"Tumorimmunologie",
-                "url":""
+                "url":"",
+                "slides":""
               }
             ]
           },
@@ -61,25 +844,29 @@
                 "themenblock": "grundlagen",
                 "subject":"Pathologie",
                 "title":"Amyloidose",
-                "url":""
+                "url":"",
+                "slides":""
               },
               {
                 "themenblock": "grundlagen",
                 "subject":"Pathologie",
                 "title":"Pathologische Verkalkung",
-                "url":""
+                "url":"",
+                "slides":""
               },
               {
                 "themenblock": "grundlagen",
                 "subject":"Immunologie",
                 "title":"Toleranz 1",
-                "url":""
+                "url":"",
+                "slides":""
               },
               {
                 "themenblock": "grundlagen",
                 "subject":"Immunologie",
                 "title":"Toleranz 2",
-                "url":""
+                "url":"",
+                "slides":""
               }
             ]
           },
@@ -90,13 +877,15 @@
                 "themenblock": "grundlagen",
                 "subject":"Pathologie",
                 "title":"Labordiagnostik der Entzündung",
-                "url":""
+                "url":"",
+                "slides":""
               },
               {
                 "themenblock": "grundlagen",
                 "subject":"Pathologie",
                 "title":"Entzündung",
-                "url":""
+                "url":"",
+                "slides":""
               }
             ]
           }
@@ -112,13 +901,15 @@
                 "themenblock": "grundlagen",
                 "subject": "Pathologie",
                 "title": "Zelltod",
-                "url": ""
+                "url": "",
+                "slides":""
               },
               {
                 "themenblock": "grundlagen",
                 "subject": "Pathologie",
                 "title": "Atrophie, Hyperplasie, Hypertrophie",
-                "url": ""
+                "url": "",
+                "slides":""
               }
             ]
           },
@@ -129,25 +920,29 @@
                 "themenblock": "grundlagen",
                 "subject": "Pathologie",
                 "title": "Kreislaufpathologie 1",
-                "url": ""
+                "url": "",
+                "slides":""
               },
               {
                 "themenblock": "grundlagen",
                 "subject": "Pathologie",
                 "title": "Kreislaufpathologie 2",
-                "url": ""
+                "url": "",
+                "slides":""
               },
               {
                 "themenblock": "grundlagen",
                 "subject": "Pathologie",
                 "title": "Kreislaufpathologie 3",
-                "url": ""
+                "url": "",
+                "slides":""
               },
               {
                 "themenblock": "grundlagen",
                 "subject": "Pathologie",
                 "title": "Qualität Labormedizinischer Tests",
-                "url": ""
+                "url": "",
+                "slides":""
               }
             ]
           },
@@ -158,13 +953,15 @@
                 "themenblock": "grundlagen",
                 "subject": "Pathologie",
                 "title": "Hypoxie und Ischämie",
-                "url": ""
+                "url": "",
+                "slides":""
               },
               {
                 "themenblock": "grundlagen",
                 "subject": "Pathologie",
                 "title": "Zelluläre Adaptation,Zellschaden",
-                "url": ""
+                "url": "",
+                "slides": ""
               }
             ]
           },
@@ -182,13 +979,15 @@
                 "themenblock": "grundlagen",
                 "subject": "Pathologie",
                 "title": "Autopsie",
-                "url": ""
+                "url": "",
+                "slides": ""
               },
               {
                 "themenblock": "grundlagen",
                 "subject": "Pathologie",
                 "title": "Extrazelluläre Matrix",
-                "url": ""
+                "url": "",
+                "slides":""
               }
             ]
           }
