@@ -25,6 +25,7 @@ html * {
 --grey: #474848;
 --grey_hover: #CBCDCD;
 --lightblue: #8E9FCC;
+--titlesalmon: #e07b8f;
 }
 
 
@@ -224,45 +225,21 @@ html * {
     filter: opacity(0.6); /* Restore the normal brightness */
 }
 
-.category {
-	justify-self: start;
-	height: 100px;
- 	width: 50%;
-  	padding: 0px; 
-	color: white;
-	align-self:center;
-
-	/* Flexbox properties to center text */
-	display: flex;
-    justify-content: flex-start; /* Horizontally center */
-    align-items: center; /* Vertically center */
-	padding-left:30px;
-	font-size:50px;
-	font-weight: bold;
+.grid-container {
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+	grid-template-rows: auto; 
+	gap: 30px 30px; 
+    padding: 20px;
 }
 
-.category-container {
-	padding-bottom:30px;
-	margin:30px;
-	margin-top: 0px;
+#container {
+	margin: 30px;
 }
 
-#allgemeine-pathologie {
-	color: #864ab4;
+#container h1 {
+	color:#e07b8f;
 }
-
-#respirationstrakt {
-	color: pink;
-}
-
-#gefässe {
-	color: red;
-}
-
-#herz {
-	color: orange;
-}
-
 
 /* The Modal (background) */
 .modal {
@@ -338,6 +315,8 @@ html * {
 
 
 
+
+
 /* SSP-Page */
 .SSP-container {
 	display: flex;
@@ -407,18 +386,17 @@ html * {
 	font-weight:bold;
   }
 
-.SSP-start-text {
-	width:60%;
-	height: auto;
-	color:white;
-	display:block;
-}
 
 .SSP-list-specific {
 	width:60%;
 	height: auto;
 	color:white;
-	display:none;
+}
+
+.SSP-start-text {
+	width:60%;
+	height:auto;
+	color:white;
 }
 
 .SSP-start-text ul{

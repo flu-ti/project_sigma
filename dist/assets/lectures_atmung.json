@@ -2,30 +2,185 @@
   "title": "Atmung",
   "week": [
     {
+      "weekNumber": 12,
+      "days": [
+        {
+          "date": "02.12.2024",
+          "lectures": [
+            {
+              "themenblock":"atmung",
+              "subject":"Lungentumore",
+              "title":"Funktionelle Abklärung zur Operabilität",
+              "url": "",
+              "slides":""
+            },
+            {
+              "themenblock":"atmung",
+              "subject":"???",
+              "title":"Abschluss",
+              "url": "",
+              "slides":""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weekNumber": 11,
+      "days": [
+        {
+          "date": "29.11.2024",
+          "lectures": [
+            {
+              "themenblock":"atmung",
+              "subject":"Lungentumore",
+              "title":"Eingriffe Thorax",
+              "url": "",
+              "slides":""
+            },
+            {
+              "themenblock":"atmung",
+              "subject":"Lungentumore",
+              "title":"Komplexe Thoraxchirurgie",
+              "url": "",
+              "slides":""
+            },
+            {
+              "themenblock":"atmung",
+              "subject":"???",
+              "title":"Pleura",
+              "url": "",
+              "slides":""
+            },
+            {
+              "themenblock":"atmung",
+              "subject":"Lungentumore",
+              "title":"Lungenkarzinom",
+              "url": "",
+              "slides":""
+            }
+          ]
+        },
+        {
+          "date": "28.11.2024",
+          "lectures": [
+            {
+              "themenblock":"atmung",
+              "subject":"Lungentumore",
+              "title":"Thorakale Tumore",
+              "url": "",
+              "slides":""
+            },
+            {
+              "themenblock":"atmung",
+              "subject":"Lungentumore",
+              "title":"Übersicht Ätiologie",
+              "url": "",
+              "slides":""
+            },
+            {
+              "themenblock":"atmung",
+              "subject":"Lungentumore",
+              "title":"Lungenkrebs",
+              "url": "",
+              "slides":""
+            },
+            {
+              "themenblock":"atmung",
+              "subject":"Lungentumore",
+              "title":"Radioonkologie",
+              "url": "",
+              "slides":""
+            }
+          ]
+        },
+        {
+          "date": "27.11.2024",
+          "lectures": [
+            {
+              "themenblock":"atmung",
+              "subject":"Vaskuläre Erkrankungen",
+              "title":"Lungenembolide",
+              "url": "",
+              "slides":""
+            },
+            {
+              "themenblock":"atmung",
+              "subject":"Vaskuläre Erkrankungen",
+              "title":"Diagnostik und Radiologie der Lungenembolie",
+              "url": "",
+              "slides":""
+            }
+          ]
+        },
+        {
+          "date": "25.11.2024",
+          "lectures": [
+            {
+              "themenblock":"atmung",
+              "subject":"DLPS",
+              "title":"Pathologie",
+              "url": "",
+              "slides":""
+            },
+            {
+              "themenblock":"atmung",
+              "subject":"DLPS",
+              "title":"Radiologie",
+              "url": "",
+              "slides":""
+            },
+            {
+              "themenblock":"atmung",
+              "subject":"DLPS",
+              "title":"Einführung",
+              "url": "",
+              "slides":""
+            },
+            {
+              "themenblock":"atmung",
+              "subject":"Lungentransplantation",
+              "title":"Medizinische Aspekte",
+              "url": "",
+              "slides":""
+            }
+          ]
+        }
+      ]
+    },
+    {
       "weekNumber": 10,
       "days": [
         {
           "date": "22.11.2024",
           "lectures": [
             {
+              "themenblock":"atmung",
               "subject":"Infekte der Atemwege",
               "title":"Einführung",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"atmung",
               "subject":"Infekte der Atemwege",
               "title":"Virale Infektionen",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"atmung",
               "subject":"Infekte der Atemwege",
               "title":"Erreger bakterieller Pneumonie",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"atmung",
               "subject":"Infekte der Atemwege",
               "title":"Klinische Fallbeispiele",
-              "url":""
+              "url": "",
+              "slides":""
             }
           ]
         },
@@ -33,24 +188,32 @@
           "date": "21.11.2024",
           "lectures": [
             {
+              "themenblock":"atmung",
               "subject":"Vaskuläre Erkrankungen",
               "title":"Pulmonale Hypertonie",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"atmung",
               "subject":"Atemregulationsstörungen",
               "title":"ARS 1",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"atmung",
               "subject":"Atemregulationsstörungen",
               "title":"ARS 2",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"atmung",
               "subject":"Grundlagen",
               "title":"Lunge und Arbeit",
-              "url":""
+              "url": "",
+              "slides":""
             }
           ]
         },
@@ -58,24 +221,32 @@
           "date": "20.11.2024",
           "lectures": [
             {
+              "themenblock":"atmung",
               "subject":"Lungenkrankheiten bei Kindern",
               "title":"Asthma beim Kind",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"atmung",
               "subject":"Lungenkrankheiten bei Kindern",
               "title":"Lungen- und Atemwegserkrankungen beim Kind 1",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"atmung",
               "subject":"Lungenkrankheiten bei Kindern",
               "title":"Lungen- und Atemwegserkrankungen beim Kind 2",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"atmung",
               "subject":"Obstruktive Atemwegserkrankungen",
               "title":"Medikamente bei obstruktiven Atemwegserkrankungen + Corticosteroide",
-              "url":""
+              "url": "",
+              "slides":""
             }
           ]
         },
@@ -83,24 +254,32 @@
           "date": "18.11.2024",
           "lectures": [
             {
+              "themenblock":"atmung",
               "subject":"Obstruktive Atemwegserkrankungen",
               "title":"Allergien",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"atmung",
               "subject":"Grundlagen",
               "title":"Dyspnoe und Leistungsdiagnostik",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"atmung",
               "subject":"Obstruktive Atemwegserkrankungen",
               "title":"COPD",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"atmung",
               "subject":"Obstruktive Atemwegserkrankungen",
               "title":"Asthma",
-              "url":""
+              "url": "",
+              "slides":""
             }
           ]
         }
@@ -113,24 +292,32 @@
           "date": "15.11.2024",
           "lectures": [
             {
+              "themenblock":"atmung",
               "subject": "Grundlagen",
               "title": "Gasaustausch/ Blutgase",
-              "url": ""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"atmung",
               "subject": "Infekte der Atemwege",
               "title": "Rhinitis und Rhinosinusitis",
-              "url": ""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"atmung",
               "subject": "Infekte der Atemwege",
               "title": "Husten",
-              "url": ""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"atmung",
               "subject": "Obstruktive Atemwegserkrankungen",
               "title": "Obstruktive Lungenerkrankungen",
-              "url": ""
+              "url": "",
+              "slides":""
             }
           ]
         },
@@ -138,24 +325,33 @@
           "date": "14.11.2024",
           "lectures": [
             {
+              "themenblock":"atmung",
               "subject": "Grundlagen",
               "title": "Atemmechanik",
-              "url": ""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"atmung",
               "subject": "Grundlagen",
               "title": "Lungenzirkulation und Gasaustausch",
-              "url": ""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"atmung",
               "subject": "Grundlagen",
               "title": "Einteilung von Lungenkrankheiten/ Obstruktive Lungenkrankheiten",
-              "url": ""
+              "url": "",
+              "slides":""
+              
             },
             {
+              "themenblock":"atmung",
               "subject": "Grundlagen",
               "title": "Ateminsuffizienz",
-              "url": ""
+              "url": "",
+              "slides":""
             }
           ]
         }

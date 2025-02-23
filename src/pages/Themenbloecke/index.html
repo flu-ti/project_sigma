@@ -26,13 +26,13 @@
 
     <main>
 
-		<div class="container_1">
+		<div class="container_2">
 
 			<div class="semester">
 				6.Semester
 			</div>
 
-			<!-- Themenblock Grundlagen -->
+			<!-- Themenblock Psychosoziale Medizin -->
 			<div class="themenbloecke" id="psychosozial" onclick="loadLectureList('psychosozial', '/assets/lectures_psychosozial.json')" style="cursor: pointer;">	
 				<div class="title-block"> 
 					<div class="title_themenblöcke" id="themenblock-titel">Psychosoziale Medizin</div>
@@ -49,6 +49,25 @@
 					<img class="modal-content" id="img01">
 					<div id="caption"></div>
  				 </div>
+
+
+			<!-- Themenblock Bewegungsapparat -->
+			<div class="themenbloecke" id="bewegungsapparat" onclick="loadLectureList('bewegungsapparat', '/assets/lectures_bewegungsapparat.json')" style="cursor: pointer;">	
+				<div class="title-block"> 
+					<div class="title_themenblöcke" id="themenblock-titel">Bewegungsapparat</div>
+				</div>
+				<div class="bottom-block">
+					<img src="/media/themenblöcke/bewegungsapparat.jpg" loading="lazy">
+				</div>
+			</div>
+
+			<img class="modal-img" id="mindmap_bewegungsapparat" src='/media/themenblöcke/Mindmap_TB_Bewegungsapparat_2022_Uebersicht.png' alt="Bewegungsapparat" height="200px" onclick="openModal(this)">
+
+				<div id="myModal" class="modal">
+					<span class="close" onclick="closeModal()">&times;</span>
+					<img class="modal-content" id="img01">
+					<div id="caption"></div>
+					</div>
 
 		</div>
 

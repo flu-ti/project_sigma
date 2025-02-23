@@ -2,30 +2,180 @@
   "title": "Herz und Kreislauf",
   "week": [
     {
+      "weekNumber": 14,
+      "days": [
+        {
+          "date": "20.12.2024",
+          "lectures": [
+            {
+              "themenblock":"herz",
+              "subject":"Gefässerkrankungen",
+              "title":"PAVK",
+              "url":"",
+              "slides":""
+            },
+            {
+              "themenblock":"herz",
+              "subject":"???",
+              "title":"Das alte Herz",
+              "url":"",
+              "slides":""
+            },
+            {
+              "themenblock":"herz",
+              "subject":"???",
+              "title":"Management KV-Erkrankungen beim alten Menschen",
+              "url":"",
+              "slides":""
+            },
+            {
+              "themenblock":"herz",
+              "subject":"???",
+              "title":"Fragelektion",
+              "url":"",
+              "slides":""
+            }
+          ]
+        },
+        {
+          "date": "19.12.2024",
+          "lectures": [
+            {
+              "themenblock":"herz",
+              "subject":"Angeborene Herzfehler",
+              "title":"Pädiatrische Kardiologie",
+              "url":"",
+              "slides":""
+            },
+            {
+              "themenblock":"herz",
+              "subject":"Angeborene Herzfehler",
+              "title":"Interaktive Falldemonstration 1",
+              "url":"",
+              "slides":""
+            },
+            {
+              "themenblock":"herz",
+              "subject":"Angeborene Herzfehler",
+              "title":"Erwachsene mit kongenitalen Herzfehlern",
+              "url":"",
+              "slides":""
+            },
+            {
+              "themenblock":"herz",
+              "subject":"Angeborene Herzfehler",
+              "title":"Interaktive Falldemonstration 2",
+              "url":"",
+              "slides":""
+            }
+          ]
+        },
+        {
+          "date": "18.12.2024",
+          "lectures": [
+            {
+              "themenblock":"herz",
+              "subject":"Gefässerkrankungen",
+              "title":"Venenerkrankungen",
+              "url":"",
+              "slides":""
+            },
+            {
+              "themenblock":"herz",
+              "subject":"Herztumore",
+              "title":"Pathologie",
+              "url":"",
+              "slides":""
+            },
+            {
+              "themenblock":"herz",
+              "subject":"Herzinsuffizienz",
+              "title":"Case-based Troubleshooting",
+              "url":"",
+              "slides":""
+            }
+          ]
+        },
+        {
+          "date": "17.12.2024",
+          "lectures": [
+            {
+              "themenblock":"herz",
+              "subject":"EKG",
+              "title":"3-5",
+              "url":"",
+              "slides":""
+            },
+            {
+              "themenblock":"herz",
+              "subject":"Koronare Herzkrankheit",
+              "title":"Case-based Troubleshooting",
+              "url":"",
+              "slides":""
+            }
+          ]
+        },
+        {
+          "date": "16.12.2024",
+          "lectures": [
+            {
+              "themenblock":"herz",
+              "subject":"Herzinsuffizienz",
+              "title":"1+2",
+              "url":"",
+              "slides":""
+            },
+            {
+              "themenblock":"herz",
+              "subject":"Herzinsuffizienz",
+              "title":"3",
+              "url":"",
+              "slides":""
+            },
+            {
+              "themenblock":"herz",
+              "subject":"Herzmuskelerkrankungen",
+              "title":"1+2",
+              "url":"",
+              "slides":""
+            }
+          ]
+        }
+      ]
+    },
+    {
       "weekNumber": 13,
       "days": [
         {
           "date": "13.12.2024",
           "lectures": [
             {
+              "themenblock":"herz",
               "subject":"Herzklappenerkrankungen",
               "title":"Aortenklappenerkrankungen",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"herz",
               "subject":"Herzklappenerkrankungen",
               "title":"Mitralklappenerkrankungen",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"herz",
               "subject":"Herzklappenerkrankungen",
               "title":"Demo",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"herz",
               "subject":"Herzrhythmusstörungen",
               "title":"Case-based Troubleshooting (Arrhythmien)",
-              "url":""
+              "url": "",
+              "slides":""
             }
           ]
         },
@@ -33,24 +183,32 @@
           "date": "12.12.2024",
           "lectures": [
             {
+              "themenblock":"herz",
               "subject":"Herzrhythmusstörungen",
               "title":"Supraventrikuläre Tachykardien",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"herz",
               "subject":"Herzrhythmusstörungen",
               "title":"Ventrikuläre Tachykardien",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"herz",
               "subject":"EKG",
               "title":"2",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"herz",
               "subject":"Herzrhythmusstörungen",
               "title":"Vorhofflimmern POL",
-              "url":""
+              "url": "",
+              "slides":""
             }
           ]
         },
@@ -58,19 +216,25 @@
           "date": "11.12.2024",
           "lectures": [
             {
+              "themenblock":"herz",
               "subject":"Herzrhythmusstörungen",
               "title":"Grundlagen der Rhythmologie, Antiarrhytmika + Bradykardien",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"herz",
               "subject":"Koronare Herzkrankheit",
               "title":"Demo",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"herz",
               "subject":"Koronare Herzkrankheit",
               "title":"POL",
-              "url":""
+              "url": "",
+              "slides":""
             }
           ]
         },
@@ -78,24 +242,32 @@
           "date": "09.12.2024",
           "lectures": [
             {
+              "themenblock":"herz",
               "subject":"Koronare Herzkrankheit",
               "title":"Stabile KHK 1",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"herz",
               "subject":"Koronare Herzkrankheit",
               "title":"Stabile KHK 2",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"herz",
               "subject":"Koronare Herzkrankheit",
               "title":"Akutes Koronarsyndrom 1",
-              "url":""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"herz",
               "subject":"Koronare Herzkrankheit",
               "title":"Akutes Koronarsyndrom 2",
-              "url":""
+              "url": "",
+              "slides":""
             }
           ]
         }
@@ -108,24 +280,32 @@
           "date": "06.12.2024",
           "lectures": [
             {
+              "themenblock":"herz",
               "subject": "Entzündliche Herzerkrankungen",
               "title": "Myokarditis und Perikarditis",
-              "url": ""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"herz",
               "subject": "Entzündliche Herzerkrankungen",
               "title": "Endokarditis",
-              "url": ""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"herz",
               "subject": "Entzündliche Herzerkrankungen",
               "title": "Demo",
-              "url": ""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"herz",
               "subject": "EKG",
               "title": "1 - Basiskurs",
-              "url": ""
+              "url": "",
+              "slides":""
             }
           ]
         },
@@ -133,19 +313,25 @@
           "date": "05.12.2024",
           "lectures": [
             {
+              "themenblock":"herz",
               "subject": "Koronare Herzkrankheit",
               "title": "Kardiopharmakologie",
-              "url": ""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"herz",
               "subject": "Diagnostik",
               "title": "CT und MRI",
-              "url": ""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"herz",
               "subject": "Koronare Herzkrankheit",
               "title": "Prävention II (Hypertonie)",
-              "url": ""
+              "url": "",
+              "slides":""
             }
           ]
         },
@@ -153,24 +339,32 @@
           "date": "04.12.2024",
           "lectures": [
             {
+              "themenblock":"herz",
               "subject": "Grundlagen Herz",
               "title": "Einführung",
-              "url": ""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"herz",
               "subject": "Koronare Herzkrankheit",
               "title": "Prävention I (Dyslipidämie)",
-              "url": ""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"herz",
               "subject": "Diagnostik",
               "title": "Nuklearmedizin",
-              "url": ""
+              "url": "",
+              "slides":""
             },
             {
+              "themenblock":"herz",
               "subject": "Diagnostik",
               "title": "Echokardiographie",
-              "url": ""
+              "url": "",
+              "slides":""
             }
           ]
         }

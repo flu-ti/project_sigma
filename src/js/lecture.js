@@ -144,7 +144,7 @@ function toggleNav() {
                 content += `<h3>${day.date}</h3>`;
                 day.lectures.forEach(lecture => {
                   if (lecture.title) {
-                    const safeId = lecture.subject.replace(/\s+/g, '-');
+                    const safeId = lecture.subject.replace(/\s+|\?/g, '-');
                     content += `<p><a href="lecture.html?id=${lecture.title}&block=${lecture.themenblock}" class="link" id="${safeId}" style="cursor: pointer;">${lecture.subject}: ${lecture.title}</a></p>`;
                   }
                 });

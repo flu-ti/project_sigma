@@ -144,7 +144,26 @@ main {
     "semester ."
     "Item-1 Image-1"
     "Item-2 Image-2"
-    "Item-3 Image-3"; 
+    "Item-3 Image-3";
+	overflow-x:auto;
+	overflow-y: hidden;
+	height:100%;
+}
+
+.container_2{
+	z-index: 1;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: auto; 
+  gap: 30px 30px; 
+  grid-template-areas: 
+    "semester ."
+    "Item-4 Image-4"
+    "Item-5 Image-5";
 	overflow-x:auto;
 	overflow-y: hidden;
 	height:100%;
@@ -159,8 +178,12 @@ main {
 #mindmap_herz {grid-area: Image-3;}
 
 
-#psychosozial { grid-area: Item-1;}
-#mindmap_psychosozial {grid-area: Image-1;}
+#psychosozial { grid-area: Item-4;}
+#bewegungsapparat {grid-area: Item-5;}
+#mindmap_psychosozial {grid-area: Image-4;}
+#mindmap_bewegungsapparat {grid-area: Image-5;}
+
+
 
 .semester {
 	grid-area: semester;
@@ -227,35 +250,6 @@ main {
     	filter: opacity(0.6); /* Restore the normal brightness */
 }
 
-.container_2{
-	z-index: 1;
-	padding-left:30px;
-	padding-right:30px;
-	padding-top:30px;
-  	display: grid; 
-  	grid-template-columns: 1fr 1fr; 
-  	grid-template-rows: auto; 
-  	gap: 30px 30px; 
-  	grid-template-areas: 
-    "semester ."
-    "Item-4 ."
-    "Item-5 ."
-    "Item-6 ."
-	"Item-7 ."; 
-	overflow-x:auto;
-	overflow-y: hidden;
-	height:100%;
-}
-
-#block_4 {grid-area: Item-4;
-border: solid var(--purple);}
-#block_5 {grid-area: Item-5;
-border: solid var(--purple)}
-#block_6 {grid-area: Item-6;
-border: solid var(--purple);}
-#block_7 {grid-area: Item-7;
-border: solid var(--purple)}
-
 h3 {
 	margin-top:20px;
 	margin-left:0px;
@@ -309,11 +303,12 @@ h3 {
 }
 
 .sidenav a{
-	padding-left: 25px;
+	padding-left: 30px;
 	text-decoration: none;
 	font-size: 17px;
 	color: white;
 	display: block;
+	text-indent: -30px;
 }
 
 .sidenav h2{
@@ -332,7 +327,7 @@ h3 {
 .title-vorlesungen {
 	padding-left: 20px;
 	padding-right: 40px;
-	padding-top: 30px;
+	padding-top: 10px;
 	padding-bottom: 20px;
 	height: auto;
 	color: #e07b8f;
@@ -431,11 +426,25 @@ h3 {
   /*||*********LECTURE STYLES**********||*/
 
   /* Styling Herz Lectures*/
-  #angeborene-herzfehler {
+  #Angeborene-Herzfehler {
 	color: rgb(255, 208, 0);
 }
-#angeborene-herzfehler:hover {
+#Angeborene-Herzfehler:hover {
 	color:white;
+}
+
+#Herzmuskelerkrankungen {
+	color: greenyellow;
+}
+#Herzmuskelerkrankungen:hover {
+	color: white;
+}
+
+#Herztumore {
+	color: rgb(149, 126, 126);
+}
+#Herztumore:hover {
+	color: white;
 }
 
 #pathophysiologische-grundlagen {
@@ -452,10 +461,10 @@ h3 {
 	color:white;
 }
 
-#gefässerkrankungen {
+#Gefässerkrankungen {
 	color: yellowgreen;
 }
-#gefässerkrankungen:hover {
+#Gefässerkrankungen:hover {
 	color:white;
 }
 
@@ -466,10 +475,10 @@ h3 {
 	color:white;
 }
 
-#herzinsuffizienz {
+#Herzinsuffizienz {
 	color: teal;
 }
-#herzinsuffizienz:hover {
+#Herzinsuffizienz:hover {
 	color:white;
 }
 
@@ -523,10 +532,10 @@ h3 {
 	color:white;
 }
 
-#lungentransplantation {
+#Lungentransplantation {
 	color: darkgray;
 }
-#lungentransplantation:hover {
+#Lungentransplantation:hover {
 	color:white;
 }
 
@@ -537,10 +546,10 @@ h3 {
 	color:white;
 }
 
-#lungentumore {
+#Lungentumore {
 	color: teal;
 }
-#lungentumore:hover {
+#Lungentumore:hover {
 	color:white;
 }
 
@@ -565,10 +574,10 @@ h3 {
 	color:white;
 }
 
-#diffuse-parenchym {
+#DLPS {
 	color: rgb(72, 169, 230);
 }
-#diffuse-parenchym:hover {
+#DLPS:hover {
 	color:white;
 }
 
@@ -580,24 +589,24 @@ h3 {
 	color:white;
 }
 
-#med_genetik {
+#Medizinische-Genetik {
 	color: blue;
 }
-#med_genetik:hover {
+#Medizinische-Genetik:hover {
 	color:white;
 }
 
-#bild_verfahren {
+#Bildgebende-Verfahren {
 	color: darkgray;
 }
-#bild_verfahren:hover {
+#Bildgebende-Verfahren:hover {
 	color:white;
 }
 
-#hämatologie {
+#Hämatologie {
 	color: yellowgreen;
 }
-#hämatologie:hover {
+#Hämatologie:hover {
 	color:white;
 }
 
@@ -608,24 +617,24 @@ h3 {
 	color:white;
 }
 
-#grundversorgung {
+#Grundversorgung {
 	color: teal;
 }
-#grundversorgung:hover {
+#Grundversorgung:hover {
 	color:white;
 }
 
-#geriatrie {
+#Geriatrie {
 	color: darkgreen;
 }
-#geriatrie:hover {
+#Geriatrie:hover {
 	color:white;
 }
 
-#klin_chemie {
+#Klinische-Chemie {
 	color: rgb(0, 52, 184);
 }
-#klin_chemie:hover {
+#Klinische-Chemie:hover {
 	color:white;
 }
 
@@ -650,17 +659,17 @@ h3 {
 	color:white;
 }
 
-#parasitologie {
+#Parasitologie {
 	color: rgb(255, 34, 0);
 }
-#parasitologie:hover {
+#Parasitologie:hover {
 	color:white;
 }
 
-#pharmakologie {
+#Pharmakologie {
 	color: rgb(142, 97, 195);
 }
-#pharmakologie:hover {
+#Pharmakologie:hover {
 	color:white;
 }
 
@@ -676,6 +685,30 @@ h3 {
 	color:white;
 }
 
+/*Styling Bewegungsapparat Lectures */
+
+#Bewegungsapparat {
+	color: rgb(0, 136, 255)
+}
+#Bewegungsapparat:hover {
+	color: white;
+}
+
+#Rheumatologie {
+	color: orangered
+}
+#Rheumatologie:hover {
+	color: white
+}
+
+
+/*MISC*/
+#--- {
+	color: white
+}
+#---:hover {
+	color: rgb(102, 134, 238)
+}
 
 /* screen size styling */
 

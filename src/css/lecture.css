@@ -168,6 +168,10 @@ border-right: solid thin var(--grey)
   background-color: rgb(235, 217, 183);
 }
 
+#hotfacts1 li {
+  margin-left: 20px;
+}
+
 #lectureslides1 {
   grid-area: Slides;
 }
@@ -286,12 +290,26 @@ border-right: solid thin var(--grey)
 
  /*||*********LECTURE STYLES**********||*/
 
-  /* Styling Herz Lectures*/
-  #angeborene-herzfehler {
+   /* Styling Herz Lectures*/
+   #Angeborene-Herzfehler {
     color: rgb(255, 208, 0);
   }
-  #angeborene-herzfehler:hover {
+  #Angeborene-Herzfehler:hover {
     color:white;
+  }
+  
+  #Herzmuskelerkrankungen {
+    color: greenyellow;
+  }
+  #Herzmuskelerkrankungen:hover {
+    color: white;
+  }
+  
+  #Herztumore {
+    color: rgb(149, 126, 126);
+  }
+  #Herztumore:hover {
+    color: white;
   }
   
   #pathophysiologische-grundlagen {
@@ -308,10 +326,10 @@ border-right: solid thin var(--grey)
     color:white;
   }
   
-  #gefässerkrankungen {
+  #Gefässerkrankungen {
     color: yellowgreen;
   }
-  #gefässerkrankungen:hover {
+  #Gefässerkrankungen:hover {
     color:white;
   }
   
@@ -322,10 +340,10 @@ border-right: solid thin var(--grey)
     color:white;
   }
   
-  #herzinsuffizienz {
+  #Herzinsuffizienz {
     color: teal;
   }
-  #herzinsuffizienz:hover {
+  #Herzinsuffizienz:hover {
     color:white;
   }
   
@@ -364,161 +382,161 @@ border-right: solid thin var(--grey)
     color: white;
   }
   /* Styling Atmung Lectures*/
-  
-  #Atemregulationsstörungen {
-    color: rgb(255, 208, 0);
-  }
-  #Atemregulationsstörungen:hover {
-    color:white;
-  }
-  
-  #Grundlagen {
-    color: rgb(0, 149, 255);
-  }
-  #Grundlagen:hover {
-    color:white;
-  }
-  
-  #lungentransplantation {
-    color: darkgray;
-  }
-  #lungentransplantation:hover {
-    color:white;
-  }
-  
-  #Lungenkrankheiten-bei-Kindern {
-    color: red;
-  }
-  #Lungenkrankheiten-bei-Kindern:hover {
-    color:white;
-  }
-  
-  #lungentumore {
-    color: teal;
-  }
-  #lungentumore:hover {
-    color:white;
-  }
-  
-  #Obstruktive-Atemwegserkrankungen {
-    color: rgb(90, 136, 90);
-  }
-  #Obstruktive-Atemwegserkrankungen:hover {
-    color:white;
-  }
-  
-  #Vaskuläre-Erkrankungen {
-    color: greenyellow;
-  }
-  #Vaskuläre-Erkrankungen:hover {
-    color:white;
-  }
-  
-  #Infekte-der-Atemwege {
-    color: rgb(140, 255, 207);
-  }
-  #Infekte-der-Atemwege:hover {
-    color:white;
-  }
-  
-  #diffuse-parenchym {
-    color: rgb(72, 169, 230);
-  }
-  #diffuse-parenchym:hover {
-    color:white;
-  }
+
+#Atemregulationsstörungen {
+	color: rgb(255, 208, 0);
+}
+#Atemregulationsstörungen:hover {
+	color:white;
+}
+
+#Grundlagen {
+	color: rgb(0, 149, 255);
+}
+#Grundlagen:hover {
+	color:white;
+}
+
+#Lungentransplantation {
+	color: darkgray;
+}
+#Lungentransplantation:hover {
+	color:white;
+}
+
+#Lungenkrankheiten-bei-Kindern {
+	color: red;
+}
+#Lungenkrankheiten-bei-Kindern:hover {
+	color:white;
+}
+
+#Lungentumore {
+	color: teal;
+}
+#Lungentumore:hover {
+	color:white;
+}
+
+#Obstruktive-Atemwegserkrankungen {
+	color: rgb(90, 136, 90);
+}
+#Obstruktive-Atemwegserkrankungen:hover {
+	color:white;
+}
+
+#Vaskuläre-Erkrankungen {
+	color: greenyellow;
+}
+#Vaskuläre-Erkrankungen:hover {
+	color:white;
+}
+
+#Infekte-der-Atemwege {
+	color: rgb(140, 255, 207);
+}
+#Infekte-der-Atemwege:hover {
+	color:white;
+}
+
+#DLPS {
+	color: rgb(72, 169, 230);
+}
+#DLPS:hover {
+	color:white;
+}
   
   /*Styling Grunlagen Lectures*/
-  #Pathologie {
-    color: rgb(255, 208, 0);
-  }
-  #Pathologie:hover {
-    color:white;
-  }
-  
-  #med_genetik {
-    color: blue;
-  }
-  #med_genetik:hover {
-    color:white;
-  }
-  
-  #bild_verfahren {
-    color: darkgray;
-  }
-  #bild_verfahren:hover {
-    color:white;
-  }
-  
-  #hämatologie {
-    color: yellowgreen;
-  }
-  #hämatologie:hover {
-    color:white;
-  }
-  
-  #Onkologie {
-    color: red;
-  }
-  #Onkologie:hover {
-    color:white;
-  }
-  
-  #grundversorgung {
-    color: teal;
-  }
-  #grundversorgung:hover {
-    color:white;
-  }
-  
-  #geriatrie {
-    color: darkgreen;
-  }
-  #geriatrie:hover {
-    color:white;
-  }
-  
-  #klin_chemie {
-    color: rgb(0, 52, 184);
-  }
-  #klin_chemie:hover {
-    color:white;
-  }
-  
-  #Immunologie {
-    color: greenyellow;
-  }
-  #Immunologie:hover {
-    color:white;
-  }
-  
-  #Mikrobiologie {
-    color: rgb(140, 255, 207);
-  }
-  #Mikrobiologie:hover {
-    color:white;
-  }
-  
-  #Virologie {
-    color: rgb(72, 169, 230);
-  }
-  #Virologie:hover {
-    color:white;
-  }
-  
-  #parasitologie {
-    color: rgb(255, 34, 0);
-  }
-  #parasitologie:hover {
-    color:white;
-  }
-  
-  #pharmakologie {
-    color: rgb(142, 97, 195);
-  }
-  #pharmakologie:hover {
-    color:white;
-  }
+#Pathologie {
+	color: rgb(255, 208, 0);
+}
+#Pathologie:hover {
+	color:white;
+}
+
+#Medizinische-Genetik {
+	color: blue;
+}
+#Medizinische-Genetik:hover {
+	color:white;
+}
+
+#Bildgebende-Verfahren {
+	color: darkgray;
+}
+#Bildgebende-Verfahren:hover {
+	color:white;
+}
+
+#Hämatologie {
+	color: yellowgreen;
+}
+#Hämatologie:hover {
+	color:white;
+}
+
+#Onkologie {
+	color: red;
+}
+#Onkologie:hover {
+	color:white;
+}
+
+#Grundversorgung {
+	color: teal;
+}
+#Grundversorgung:hover {
+	color:white;
+}
+
+#Geriatrie {
+	color: darkgreen;
+}
+#Geriatrie:hover {
+	color:white;
+}
+
+#Klinische-Chemie {
+	color: rgb(0, 52, 184);
+}
+#Klinische-Chemie:hover {
+	color:white;
+}
+
+#Immunologie {
+	color: greenyellow;
+}
+#Immunologie:hover {
+	color:white;
+}
+
+#Mikrobiologie {
+	color: rgb(140, 255, 207);
+}
+#Mikrobiologie:hover {
+	color:white;
+}
+
+#Virologie {
+	color: rgb(72, 169, 230);
+}
+#Virologie:hover {
+	color:white;
+}
+
+#Parasitologie {
+	color: rgb(255, 34, 0);
+}
+#Parasitologie:hover {
+	color:white;
+}
+
+#Pharmakologie {
+	color: rgb(142, 97, 195);
+}
+#Pharmakologie:hover {
+	color:white;
+}
 
 /*Styling Psychosozial Lectures*/
 
@@ -533,6 +551,29 @@ border-right: solid thin var(--grey)
 }
 
 
+/*Styling Bewegungsapparat Lectures */
+
+#Bewegungsapparat {
+	color: rgb(0, 136, 255)
+}
+#Bewegungsapparat:hover {
+	color: white;
+}
+
+#Rheumatologie {
+	color: orangered
+}
+#Rheumatologie:hover {
+	color: white
+}
+
+/*MISC*/
+#--- {
+	color: white
+}
+#---:hover {
+	color: rgb(102, 134, 238)
+}
 
 
 

@@ -62,18 +62,6 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
-      template: './src/pages/sigmaCSV.html', // Use the HTML template from src
-      filename: 'pages/sigmaCSV.html', // Output the final HTML to the dist folder
-      chunks: ['sigmaCSV']
-    }),
-
-    new HtmlWebpackPlugin({
-      template: './src/pages/sigmaTest.html', // Use the HTML template from src
-      filename: 'pages/sigmaTest.html', // Output the final HTML to the dist folder
-      chunks: ['sigmaTest']
-    }),
-
-    new HtmlWebpackPlugin({
       template: './src/index.html', // Use the HTML template from src
       filename: 'index.html', // Output the final HTML to the dist folder
       chunks: ['home']
@@ -94,6 +82,18 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/pages/clinical_reasoning/index.html', // Use the HTML template from src
       filename: 'pages/clinical_reasoning/index.html', // Output the final HTML to the dist folder
+      chunks: ['clinical_reasoning']
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/pages/clinical_reasoning/SSP/index.html', // Use the HTML template from src
+      filename: 'pages/clinical_reasoning/SSP/index.html', // Output the final HTML to the dist folder
+      chunks: ['clinical_reasoning']
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/pages/clinical_reasoning/disease-scripts/index.html', // Use the HTML template from src
+      filename: 'pages/clinical_reasoning/disease-scripts/index.html', // Output the final HTML to the dist folder
       chunks: ['clinical_reasoning']
     }),
 

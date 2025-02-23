@@ -1,0 +1,60 @@
+{
+    "title":"Herz-Kreislauf",
+    "diseases":[
+        {
+            "name": "Disease 1",
+            "image": "media/virus.jpg",
+            "link": "#Disease"
+        },
+        {
+            "name": "Disease 2",
+            "image": "media/bacteria.jpg",
+            "link": "#Disease2"
+        },
+        {
+            "name": "Disease 3",
+            "image": "media/fungus.jpg",
+            "link": "#Disease3"
+        },
+        {
+            "name": "Herzinsuffizienz",
+            "image": "media/fungus.jpg",
+            "link": "#Herzinsuffizienz"
+        },
+        {
+            "name": "Disease 3",
+            "image": "media/fungus.jpg",
+            "link": "#Disease3"
+        },
+        {
+            "name": "Disease 3",
+            "image": "media/fungus.jpg",
+            "link": "#Disease3"
+        },
+        {
+            "name": "Disease 3",
+            "image": "media/fungus.jpg",
+            "link": "#Disease3"
+        },
+        {
+            "name": "Disease 3",
+            "image": "media/fungus.jpg",
+            "link": "#Disease3"
+        },
+        {
+            "name": "Disease 3",
+            "image": "media/fungus.jpg",
+            "link": "#Disease3"
+        },
+        {
+            "name": "Disease 3",
+            "image": "media/fungus.jpg",
+            "link": "#Disease3"
+        },
+        {
+            "name": "Disease 3",
+            "image": "media/fungus.jpg",
+            "link": "#Disease3"
+        }
+    ]
+}
