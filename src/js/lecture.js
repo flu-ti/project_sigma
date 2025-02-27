@@ -6,7 +6,17 @@ async function loadLectureContent() {
     const lectureId = params.get('id');
     var block = params.get('block')
 
-    console.log(block)
+    const imageMap = {
+        "psychosozial": "/media/themenblöcke/psychosozial.jpg",
+        "grundlagen": "/media/themenblöcke/diagnostics.jpg",
+        "herz": "/media/themenblöcke/herz.jpg",
+        "atmung": "/media/themenblöcke/atmung.jpg",
+        "bewegungsapparat": "/media/themenblöcke/bewegungsapparat.jpg"
+    };
+    
+    if (imageMap[block]) {
+        document.getElementById("title-img").src = imageMap[block];
+    }
 
     if (!lectureId) {
         console.error("No lecture ID provided.");
@@ -91,6 +101,22 @@ async function loadLectureContent() {
         document.getElementById("lecture-content").innerHTML = "";
             sections.forEach(section => document.getElementById("lecture-content").appendChild(section));
         document.title = lecture.title;
+
+        const titleElement = document.getElementById("lecture-title");
+
+        const titleLength = titleElement.innerText.length;
+
+        // Remove the class first to reset
+        titleElement.classList.remove("small-title");
+
+        // Apply size rules only if screen is larger than 1000px
+        if (window.innerWidth > 1000) {
+            if (titleLength > 25) {
+                titleElement.classList.add("small-title"); // Set 35px
+            } else {
+                // No class needed, it remains 40px (default CSS)
+            }
+        }
 
     } catch (error) {
         console.error("Error loading lecture content:", error);

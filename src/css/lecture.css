@@ -54,13 +54,21 @@ height:150px;
 .page-titel {	
 display: flex;
 height:80px;
+max-width: 90vw;
 padding-left:30px;
 color:white;
   position:relative;
   justify-content:left;
   align-items:end;
   justify-items: start;
-font-size: 25px;
+}
+
+#lecture-title {
+  font-size: 40px;
+}
+
+#lecture-title.small-title {
+  font-size: 35px;
 }
 
 #lecture-subject {
@@ -611,7 +619,10 @@ border-right: solid thin var(--grey)
       justify-content:left;
       align-items:end;
       justify-items: start;
-    font-size: 18px;
+    }
+
+    #lecture-title {
+      font-size: 25px;
     }
 
     #lecture-subject {
