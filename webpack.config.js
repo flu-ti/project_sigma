@@ -17,7 +17,8 @@ module.exports = {
     home: './src/js/home.js',
     themenbloecke: './src/js/themenbloecke.js',
     lecture: './src/js/lecture.js',
-    clinical_reasoning: './src/js/clinical_reasoning.js'
+    clinical_reasoning: './src/js/clinical_reasoning.js',
+    disease: './src/js/disease.js'
   },
   
   output: {
@@ -95,6 +96,12 @@ module.exports = {
       template: './src/pages/clinical_reasoning/disease-scripts/index.html', // Use the HTML template from src
       filename: 'pages/clinical_reasoning/disease-scripts/index.html', // Output the final HTML to the dist folder
       chunks: ['clinical_reasoning']
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/pages/clinical_reasoning/disease-scripts/disease.html',
+      filename: 'pages/clinical_reasoning/disease-scripts/disease.html',
+      chunks: ['disease']
     }),
 
     new CopyWebpackPlugin({

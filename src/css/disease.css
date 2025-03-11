@@ -1,0 +1,308 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /*||*********BODY AND GENERAL STYLES**********||*/
+  
+  body {
+    font-family: Helvetica;
+    line-height: 1.6;
+    background-color: var(--darkblue);
+    text-align: start;
+  }
+  
+  html * {
+    font-family: Helvetica, sans-serif;
+  }
+  
+  :root {
+    --purple: #734B5E;
+    --white: #ffffff;
+    --darkblue: #13192A;
+    --grey: #474848;
+    --grey_hover: #CBCDCD;
+    --lightblue: #8E9FCC;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /*||*********HEADER STYLES**********||*/
+  
+  .header {
+    flex-direction: column; /* Stack title and nav vertically */
+    height: 100px; /* Set height of the header (can adjust as needed) */
+    background-color: var(--purple); /* Background color of header */
+    position: relative; /* Position for absolute nav */
+  top:0;
+  width: 100%;
+  height:150px;
+  }
+  
+  .page-titel {	
+  display: flex;
+  height:80px;
+  padding-left:30px;
+  color:white;
+    position:relative;
+    justify-content:left;
+    align-items:end;
+    justify-items: start;
+  }
+  
+  #lecture-title {
+    font-size: 40px;
+    display: inline-block;
+    width: max-content;
+    white-space: normal;
+    max-width: 68vw;
+  }
+  
+  #lecture-title.small-title {
+    font-size: 35px;
+  }
+  
+  #lecture-title.smaller-title {
+    font-size: 25px;
+    display: inline-block;
+    width: max-content;
+  }
+  
+  #lecture-subject {
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  
+  #title-img {
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  mask-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0));
+  position:absolute;
+  right:0;
+  top:0;
+  height:100%;
+  z-index: 1;
+  }
+  
+  .navbar {
+  height: 50px;
+  position: absolute;
+  width: 100%;
+  left:0;
+  bottom:0;
+  z-index: 0;
+  }
+  
+  .navbar ul{
+  list-style-type:none;
+  display: flex;
+  flex-direction: row;
+  background-color:var(--grey);
+  padding: 0px;
+  overflow: hidden;
+  height:100%;
+  }
+  
+  .navbar .header-item{
+  color: black;
+  text-decoration: none;
+  background-color: var(--grey_hover);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  height: 100%;
+  width:100%;
+  padding: 20px;
+  cursor: pointer;
+  }
+  
+  .navbar #list{
+    background-color: var(--lightblue);
+  }
+  
+  .navbar #list:hover {
+    background-color: var(--grey);
+  }
+  
+  .navbar .header-item:hover{
+  background-color: var(--grey);
+  color: var(--white);
+  }
+  
+  .navbar li {
+  float: left;
+  height: 100%;
+  border-right: solid thin var(--grey)
+  }
+
+
+
+
+
+
+
+
+  #disease-content {
+    display: grid;
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1.5fr 0.5fr; 
+    grid-template-rows: auto; 
+    padding: 15px;
+    overflow-x: scroll;
+  }
+
+  #content-container {
+    background-color: rgb(79, 79, 79);
+    background-image: url("../media/45-degree-fabric-light.png");
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    gap: 30px 30px; 
+    gap: 30px 30px; 
+    padding: 20px;
+    margin: 15px;
+    min-width: 700px;
+	align-items: center;
+	justify-items: center;
+    grid-template-areas: 
+      "Epidemiologie Prävention---Screening"
+      "Pathomechanismus Diagnostik"
+      "Krankheitsbild Therapie"
+      "Verlauf Follow-up---Prognose"; 
+  }
+
+  #image-container {
+    background-color: rgb(79, 79, 79);
+    background-image: url("../media/45-degree-fabric-light.png");
+    padding: 20px;
+    margin: 15px;
+    height: fit-content;
+    overflow-y: auto; /* Enables scrolling when needed */
+    display: grid;
+    min-width: 200px;
+    gap: 30px;
+  }
+
+  .media-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, auto));
+    overflow-y: auto; /* Enables vertical scrolling */
+    height: fit-content;
+    gap: 30px 30px;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .disease-image {
+    object-fit: cover; /* Ensures uniform size without distortion */
+    height: 180px;
+    width: 100%;
+    aspect-ratio: 1/1;
+  }
+
+  .disease-image:hover{
+    cursor: pointer;
+  }
+
+  .grid-item {
+    margin: 10px;
+    padding: 20px;
+    border: solid white;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  #Epidemiologie { grid-area: Epidemiologie;}
+  #Pathomechanismus { grid-area: Pathomechanismus;}
+  #Krankheitsbild { grid-area: Krankheitsbild;}
+  #Verlauf { grid-area: Verlauf;}
+  #Diagnostik { grid-area: Diagnostik;}
+  #Therapie { grid-area: Therapie;}
+  #Follow-up---Prognose { grid-area: Follow-up---Prognose;}
+  #Prävention---Screening { grid-area: Prävention---Screening;}
+
+
+
+
+
+/**-------MODAL STYLES-------**/
+
+  /* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+	margin: auto;
+	display: block;
+	height: 75%;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+  }
+
+  /* Add Animation */
+.modal-content, #caption {  
+	animation-name: zoom;
+	animation-duration: 0.3s;
+  }
+
+  @keyframes zoom {
+	from {transform: scale(0.5)} 
+	to {transform: scale(1)}
+  }
+
+  .close {
+	color: white;    /* Change the color if needed */
+	text-decoration: none; /* Remove underline */
+	cursor: pointer; /* Makes the cursor a pointer */
+	display: inline-block; /* Ensures the link wraps tightly around the symbol */
+	position: absolute;
+	right:0;
+  top:0;
+	margin-right: 50%;
+  margin-top: 2%;
+	font-size: 50px;
+  }
+
+
+
+
+
+  @media only screen and (max-height: 1400px){
+    #image-container {
+      max-height: 1200px;
+    }
+  }

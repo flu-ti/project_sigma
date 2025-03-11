@@ -60,7 +60,24 @@ color:white;
   justify-content:left;
   align-items:end;
   justify-items: start;
-font-size: 25px;
+}
+
+#lecture-title {
+  font-size: 40px;
+  display: inline-block;
+  width: max-content;
+  white-space: normal;
+  max-width: 68vw;
+}
+
+#lecture-title.small-title {
+  font-size: 35px;
+}
+
+#lecture-title.smaller-title {
+  font-size: 25px;
+  display: inline-block;
+  width: max-content;
 }
 
 #lecture-subject {
@@ -162,6 +179,7 @@ border-right: solid thin var(--grey)
 
 #hotfacts1 {
   grid-area: HotFacts;
+  height:max-content;
   border: solid orange;
   border-width: 15px;
   border-style:groove;
@@ -206,7 +224,7 @@ border-right: solid thin var(--grey)
 	display: inline-block; /* Ensures the link wraps tightly around the symbol */
 	position: absolute;
 	right:0;
-	margin-right: 5%;
+	margin-right: 1%;
 	font-size: 40px;
   }
 
@@ -611,7 +629,10 @@ border-right: solid thin var(--grey)
       justify-content:left;
       align-items:end;
       justify-items: start;
-    font-size: 18px;
+    }
+
+    #lecture-title {
+      font-size: 25px;
     }
 
     #lecture-subject {

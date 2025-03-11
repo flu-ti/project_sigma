@@ -117,6 +117,12 @@ html * {
 
 
 
+
+
+
+
+
+
 /*||*********MAIN CONTENT STYLINGS**********||*/
 
 .container{
@@ -156,7 +162,7 @@ html * {
     line-height:100%;
     font-weight: bold;
 	padding: 10px;
-	font-size: 25px;
+	font-size: 22px;
 }
 
 #title-gross {
@@ -175,6 +181,24 @@ html * {
 	height: 250px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** DISEASES **/
+
 .bottom-block {
     background-color: #FFFFFF;
 	height:70%;
@@ -189,36 +213,14 @@ html * {
 	filter: opacity(1);
 }
 
-.item:hover .bottom-block img{
-    filter: opacity(0.6); /* Restore the normal brightness */
-}
-
-.container-diseases {
-	display: grid;
-	grid-template-columns: repeat(5, 1fr); /* 5 items per row */
-	gap: 20px; /* space between the cards */
-	padding:0;
-}
-
-.container-textbook {
-	display: grid;
-	grid-template-columns: repeat(5, 1fr); /* 5 items per row */
-	gap:20px;
-	padding-top:40px;
-}
-
-.textbook-thumbnail {
-	cursor: pointer;
-	transition: 0.3s;
-	width: 100%;
-    height: 100%;
-}
-
 .disease {
 	background-color: #f9f9f9;
 	text-align: center;
 	color: white;
 	transition: border 0.2s ease;
+	aspect-ratio: 1/1;
+	box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.428);
+	height: 200px;
   }
 
 .disease:hover .bottom-block img{
@@ -227,10 +229,11 @@ html * {
 
 .grid-container {
     display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
-	grid-template-rows: auto; 
+	grid-template-columns: repeat(auto-fill, minmax(200px, auto));
 	gap: 30px 30px; 
     padding: 20px;
+	align-items: center;
+	justify-items: center;
 }
 
 #container {
@@ -240,6 +243,42 @@ html * {
 #container h1 {
 	color:#e07b8f;
 }
+
+#container h2 {
+	color: white
+}
+
+.block-wrapper {
+	background-color: rgb(79, 79, 79);
+	background-image: url(/3e9170690495094b2f13.png);
+	display: grid;
+	padding: 10px;
+	box-shadow: 8px 8px 5px rgb(0, 0, 0);
+}
+
+.group-wrapper {
+	margin: 10px;
+	padding: 10px;
+	border: solid white;
+	border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* The Modal (background) */
 .modal {
@@ -312,6 +351,18 @@ html * {
 	text-decoration: none;
 	cursor: pointer;
   }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -438,6 +489,8 @@ html * {
 	color: var(--lightblue);
 	counter-reset: list-item 13; /* Start the counter at 16 so the first item will be 17 */
 }
+
+
 
 @media only screen and (max-width: 1000px){
 	#title-img {

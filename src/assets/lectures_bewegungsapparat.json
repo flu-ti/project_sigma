@@ -2,6 +2,136 @@
     "title": "Bewegungsapparat",
     "week": [
     {
+        "weekNumber": 2,
+        "days": [
+        {
+            "date": "28.02.2025",
+            "lectures": [
+                {
+                    "themenblock":"bewegungsapparat",
+                    "subject":"Rheumatologie",
+                    "title":"Sturz",
+                    "url":"/assets/Bewegungsapparat/250228_sturz.md",
+                    "slides":"/assets/Bewegungsapparat/3_250228_08_Bewegungsapparat_Gagesch_Sturz.pdf"
+                },
+                {
+                    "themenblock":"bewegungsapparat",
+                    "subject":"Rheumatologie",
+                    "title":"Dekubitus",
+                    "url":"/assets/Bewegungsapparat/250228_dekubitus.md",
+                    "slides":"/assets/Bewegungsapparat/3_250228_09_Bewegungsapparat_Munzer_Dekubitus.pdf"
+                },
+                {
+                    "themenblock":"bewegungsapparat",
+                    "subject":"Rheumatologie",
+                    "title":"Osteoporose, Osteomalazie, Hyperpara, Paget",
+                    "url":"/assets/Bewegungsapparat/250228_osteoporose-osteomalazie.md",
+                    "slides":"/assets/Bewegungsapparat/3_250228_10_Bewegungsapparat_Lingg_Osteoporose-Osteomalazie-Hyperpara-Paget.pdf"
+                }
+            ]
+        },  
+        {
+            "date": "27.02.2025",
+            "lectures": [
+                {
+                    "themenblock":"bewegungsapparat",
+                    "subject":"Rheumatologie",
+                    "title":"Arthrose",
+                    "url":"/assets/Bewegungsapparat/250227_arthrose.md",
+                    "slides":"/assets/Bewegungsapparat/3_250227_08_Bewegungsapparat_Wildi_Arthrose.pdf"
+                },
+                {
+                    "themenblock":"bewegungsapparat",
+                    "subject":"Rheumatologie",
+                    "title":"Rückenschmerzen 1",
+                    "url":"/assets/Bewegungsapparat/250227_rückenschmerzen-1.md",
+                    "slides":"/assets/Bewegungsapparat/3_250227_09_Bewegungsapparat_Wildi_Rueckenschmerzen-1.pdf"
+                },
+                {
+                    "themenblock":"bewegungsapparat",
+                    "subject":"Rheumatologie",
+                    "title":"Rückenschmerzen 2",
+                    "url":"/assets/Bewegungsapparat/250227_rückenschmerzen-2.md",
+                    "slides":"/assets/Bewegungsapparat/3_250227_10_Bewegungsapparat_Wildi_Rueckenschmerzen-2.pdf"
+                },
+                {
+                    "themenblock":"Bewegungsapparat",
+                    "subject":"Rheumatologie",
+                    "title":"Nervenkompressionssyndrome",
+                    "url":"/assets/Bewegungsapparat/250227_nervenkompressionssyndrome.md",
+                    "slides":"/assets/Bewegungsapparat/3_250227_11_Bewegungsapparat_Brunner_Nervenkompressionssyndrome.pdf"
+                }
+            ]
+        },    
+        {
+            "date": "26.02.2025",
+            "lectures": [
+                {
+                    "themenblock":"bewegungsapparat",
+                    "subject":"Rheumatologie",
+                    "title":"Mikrobielle Erkrankungen",
+                    "url":"/assets/Bewegungsapparat/250226_mikrobielle-erkrankungen.md",
+                    "slides":"/assets/Bewegungsapparat/3_250226_08_Bewegungsapparat_Zinkernagel_Mikrobielle-Erkrankungen.pdf"
+                },
+                {
+                    "themenblock":"bewegungsapparat",
+                    "subject":"Rheumatologie",
+                    "title":"Kristallerkrankungen",
+                    "url":"/assets/Bewegungsapparat/250226_kristallerkrankungen.md",
+                    "slides":"/assets/Bewegungsapparat/3_250226_09_Bewegungsapparat_Deibel_Kristallerkrankungen.pdf"
+                },
+                {
+                    "themenblock":"bewegungsapparat",
+                    "subject":"Rheumatologie",
+                    "title":"Hyperurikämie",
+                    "url":"/assets/Bewegungsapparat/250226_hyperurikämie.md",
+                    "slides":"/assets/Bewegungsapparat/3_250226_10_Bewegungsapparat_Zeilhofer_Hyperirikamie.pdf"
+                },
+                {
+                    "themenblock":"bewegungsapparat",
+                    "subject":"Rheumatologie",
+                    "title":"Medikamentöse Therapien",
+                    "url":"/assets/Bewegungsapparat/250226_medikamentöse-therapien.md",
+                    "slides":"/assets/Bewegungsapparat/3_250226_11_Bewegungsapparat_Micheroli_Medikamentöse-Therapien.pdf"
+                }
+            ]
+        },
+        {
+            "date": "24.02.2025",
+            "lectures": [
+                {
+                    "themenblock":"bewegungsapparat",
+                    "subject":"Rheumatologie",
+                    "title":"Systemischer Lupus Erythematodes und Antiphospholipidsyndrom",
+                    "url":"/assets/Bewegungsapparat/250224_lupus-erythematodes.md",
+                    "slides":"/assets/Bewegungsapparat/3_250224_08_Bewegungsapparat_Mihai_Lupus-Erythematodes.pdf"
+                },
+                {
+                    "themenblock":"bewegungsapparat",
+                    "subject":"Rheumatologie",
+                    "title":"Myositiden",
+                    "url":"/assets/Bewegungsapparat/250224_myositiden.md",
+                    "slides":"/assets/Bewegungsapparat/3_250224_09_Bewegungsapparat_Goehner_Myopathien.pdf"
+                },
+                {
+                    "themenblock":"bewegungsapparat",
+                    "subject":"Rheumatologie",
+                    "title":"Kleingefäss Vaskulitiden",
+                    "url":"/assets/Bewegungsapparat/250224_kleingefäss-vaskulitiden.md",
+                    "slides":"/assets/Bewegungsapparat/3_250224_10_Bewegungsapparat_Becker_Kleingefaessvaskulitits.pdf"
+                },
+                {
+                    "themenblock":"bewegungsapparat",
+                    "subject":"Rheumatologie",
+                    "title":"Grossgefäss Vaskulitiden",
+                    "url":"/assets/Bewegungsapparat/250224_grossgefäss-vaskulitiden.md",
+                    "slides":"/assets/Bewegungsapparat/3_250224_11_Bewegungsapparat_Becker_Grossgefaessvaskulitis.pdf"
+                }
+            ]
+        }
+        ]
+    },
+    {
         "weekNumber": 1,
         "days": [
         {
@@ -28,11 +158,11 @@
                     "slides": "/assets/Bewegungsapparat/3_250221_10_Bewegungsapparat_Saurenmann_Juvenile-Idiopathische-Arthritis.pdf"
                 },
                 {
-                "themenblock": "bewegungsapparat",
-                "subject":"Bewegungsapparat",
-                "title":"Sicca-Syndrom",
-                "url": "/assets/Bewegungsapparat/250221_sicca-syndrom.md",
-                "slides": "/assets/Bewegungsapparat/3_250221_11_Bewegungsapparat_Sprecher_Sicca-Syndrom.pdf"
+                    "themenblock": "bewegungsapparat",
+                    "subject":"Rheumatologie",
+                    "title":"Sicca-Syndrom",
+                    "url": "/assets/Bewegungsapparat/250221_sicca-syndrom.md",
+                    "slides": "/assets/Bewegungsapparat/3_250221_11_Bewegungsapparat_Sprecher_Sicca-Syndrom.pdf"
                 }
             ]
         },

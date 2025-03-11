@@ -27,7 +27,7 @@ async function loadLectureContent() {
     try {
         // Fetch the metadata JSON
         const response = await fetch(`/assets/lectures_${block}.json`);
-        if (!response.ok) throw new Error("Failed to fetch JSON");
+        if (!response.ok) throw new Error("Failed to fetch Lecture List JSON");
 
         const data = await response.json();
 
@@ -35,6 +35,8 @@ async function loadLectureContent() {
         .flatMap(week => week.days)
         .flatMap(day => day.lectures)
         .find(l => l.title === lectureId)
+
+        console.log(data)
         
 
         if (!lecture) {
@@ -111,9 +113,13 @@ async function loadLectureContent() {
 
         // Apply size rules only if screen is larger than 1000px
         if (window.innerWidth > 1000) {
-            if (titleLength > 25) {
+            if (titleLength > 25 && titleLength <49) {
                 titleElement.classList.add("small-title"); // Set 35px
-            } else {
+            } 
+            if (titleLength > 50) {
+                titleElement.classList.add("smaller-title");
+            }
+            else {
                 // No class needed, it remains 40px (default CSS)
             }
         }

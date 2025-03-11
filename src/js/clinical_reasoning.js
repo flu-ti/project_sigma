@@ -72,54 +72,77 @@ async function loadLectureList(filePath) {
 
 document.addEventListener("DOMContentLoaded", function () {
     const container = document.getElementById("container");
-    const jsonFiles = ["diseases_grundlagen.json", "diseases_atmung.json","diseases_herz.json"]; // Add more filenames as needed
-    // Fetch JSON data from an external file
+    const jsonFiles = ["diseases_grundlagen.json", "diseases_atmung.json", "diseases_herz.json"]; // Add more filenames as needed
+
     jsonFiles.forEach(file => {
-    fetch(`/assets/diseases/${file}`)
-        .then(response => response.json())
-        .then(data => {
-            
-            // Create and append the title
-            const titleElement = document.createElement("h1");
-            titleElement.textContent = data.title;
-            container.appendChild(titleElement);
+        fetch(`/assets/diseases/${file}`)
+            .then(response => response.json())
+            .then(data => {
+                // Create a wrapper for the entire block (title + groups)
+                const blockWrapper = document.createElement("div");
+                blockWrapper.className = "block-wrapper"; // Class for styling
 
-            // Create a new grid container for this section
-            const gridContainer = document.createElement("div");
-            gridContainer.className = "grid-container";
-            container.appendChild(gridContainer);
-            
-            data.diseases.forEach(disease => {
-                const diseaseDiv = document.createElement("div");
-                diseaseDiv.className = "disease";
-                diseaseDiv.style.cursor = "pointer";
-                diseaseDiv.onclick = function () {
-                    location.href = disease.link;
-                };
+                // Create and append the main title inside the wrapper
+                const titleElement = document.createElement("h1");
+                titleElement.textContent = data.title;
+                var block = data.title;
 
-                const titleBlock = document.createElement("div");
-                titleBlock.className = "title-block";
+                blockWrapper.appendChild(titleElement); // Append h1 to the wrapper
 
-                const title = document.createElement("div");
-                title.className = "title_2";
-                title.textContent = disease.name;
+                data["diseasegroup"].forEach(group => {
+                    // Create a wrapper for each disease group
+                    const groupWrapper = document.createElement("div");
+                    groupWrapper.className = "group-wrapper"; // Add a class for styling
+                    const safeGroupname = group.diseasegroup.replace(/\s+|\?/g, '-');
+                    groupWrapper.id = `${safeGroupname}`;
 
-                const bottomBlock = document.createElement("div");
-                bottomBlock.className = "bottom-block";
+                    // Create and append the disease group title
+                    const groupTitleElement = document.createElement("h2");
+                    groupTitleElement.textContent = group.diseasegroup;
+                    groupWrapper.appendChild(groupTitleElement);
 
-                const image = document.createElement("img");
-                image.src = disease.image;
+                    // Create a new grid container for this group
+                    const gridContainer = document.createElement("div");
+                    gridContainer.className = "grid-container";
+                    groupWrapper.appendChild(gridContainer); // Append grid to group wrapper
 
-                // Append elements
-                titleBlock.appendChild(title);
-                bottomBlock.appendChild(image);
-                diseaseDiv.appendChild(titleBlock);
-                diseaseDiv.appendChild(bottomBlock);
-                gridContainer.appendChild(diseaseDiv);
-            });
-        })
-        .catch(error => console.error("Error loading JSON data:", error));
-    
+                    group.diseases.forEach(disease => {
+                        const diseaseDiv = document.createElement("div");
+                        diseaseDiv.className = "disease";
+                        diseaseDiv.style.cursor = "pointer";
+                        diseaseDiv.onclick = function () {
+                            location.href = `disease.html?id=${disease.name}&block=${block}`;
+                        };
+
+                        const titleBlock = document.createElement("div");
+                        titleBlock.className = "title-block";
+
+                        const title = document.createElement("div");
+                        title.className = "title_2";
+                        title.textContent = disease.name;
+
+                        const bottomBlock = document.createElement("div");
+                        bottomBlock.className = "bottom-block";
+
+                        const image = document.createElement("img");
+                        image.src = disease.media[0]?.image1 || "default-image.jpg"; // Default image if none provided
+
+                        // Append elements
+                        titleBlock.appendChild(title);
+                        bottomBlock.appendChild(image);
+                        diseaseDiv.appendChild(titleBlock);
+                        diseaseDiv.appendChild(bottomBlock);
+                        gridContainer.appendChild(diseaseDiv);
+                    });
+
+                    // Append the entire group wrapper to the block wrapper
+                    blockWrapper.appendChild(groupWrapper);
+                });
+
+                // Append the entire block wrapper to the container
+                container.appendChild(blockWrapper);
+            })
+            .catch(error => console.error("Error loading JSON data:", error));
     });
 });
   
@@ -132,6 +155,9 @@ function closeNav() {
     document.getElementById("ssp-list-specific").style.display = "none";
     document.getElementById("text").style.display = "block";
 }
+
+
+
 
 
     window.loadLectureList = loadLectureList;

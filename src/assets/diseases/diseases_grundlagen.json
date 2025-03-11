@@ -1,20 +1,47 @@
 {
-    "title":"Allgemeine Pathologie",
-    "diseases":[
+    "title":"Grundlagen",
+    "diseasegroup": [
+    {   
+        "diseasegroup":"Allgemeine Pathologie",
+        "diseases":[
         {
-            "name": "Disease 1",
-            "image": "media/virus.jpg",
-            "link": "#Disease"
+            "name": "Morbus Lorem",
+            "block": "grundlagen",
+            "subject": "allgemeine-pathologie",
+            "markdown": "morbus-lorem.md",
+            "media":[
+                "body.jpg",
+                "head.jpg",
+                "leg.jpg",
+                "hand.jpg",
+                "chest.jpg"
+            ]
         },
         {
-            "name": "Disease 2",
-            "image": "media/bacteria.jpg",
-            "link": "#Disease2"
-        },
-        {
-            "name": "Disease 3",
-            "image": "media/fungus.jpg",
-            "link": "#Disease3"
+            "name": "Morbus Ipsum",
+            "block": "grundlagen",
+            "subject": "allgemeine-pathologie",
+            "markdown": "morbus-ipsum.md",
+            "media": [
+                ""
+            ]
         }
     ]
+    },
+    {
+        "diseasegroup":"Mikrobiologie",
+        "diseases": [
+        {
+            "name": "Hepatitis B",
+            "block": "grundlagen",
+            "subject": "mikrobiologie",
+            "markdown": "Hepatitis-b.md",
+            "media":[
+                ""
+        ]
+        }
+        ]
+    }  
+]
+    
 }
